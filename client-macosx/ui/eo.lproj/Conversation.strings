@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "FgV-iF-gGQ"; */
+"FgV-iF-gGQ.title" = "Teksta Ĉelo";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Title"; ObjectID = "HnC-1N-RmR"; */
+"HnC-1N-RmR.placeholderString" = "Titolo";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Send a message"; ObjectID = "Ilz-7v-2fr"; */
+"Ilz-7v-2fr.placeholderString" = "Sendi mesaĝon";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "Send a message"; ObjectID = "ZEx-5Y-rtp"; */
+"ZEx-5Y-rtp.ibShadowedIsNilPlaceholder" = "Sendi mesaĝon";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "Send a message"; ObjectID = "ZEx-5Y-rtp"; */
+"ZEx-5Y-rtp.ibShadowedMultipleValuesPlaceholder" = "Sendi mesaĝon";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = "Send a message"; ObjectID = "ZEx-5Y-rtp"; */
+"ZEx-5Y-rtp.ibShadowedNoSelectionPlaceholder" = "Sendi mesaĝon";
+
+/* Class = "NSTextFieldCell"; title = "Start the conversation!"; ObjectID = "bsl-nv-Wqq"; */
+"bsl-nv-Wqq.title" = "Komencu la konversacion!";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Record"; ObjectID = "ooq-vs-Xt1"; */
+"ooq-vs-Xt1.ibShadowedToolTip" = "Registri";

@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Tiedonviennissä tapahtui verkkoyhteysvirhe";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Lisää yhteystietoihin";
+
+/* Text shown to the user */
+"Alias : " = "Lempinimi";
+
+/* Error shown to the user */
+"An error occured during the export" = "Tiedonviennissä tapahtui virhe";
+
+/* Contextual menu entry */
+"Backup account" = "Varakäyttäjätunnus";
+
+/* Contextual menu action */
+"Call number" = "Soita numeroon";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Choose a CA list";
+
+/* Open panel title */
+"Choose a certificate" = "Valitse sertifikaatti";
+
+/* Open panel title */
+"Choose a directory" = "Valitse hakemisto";
+
+/* Open panel title */
+"Choose a private key file" = "Valitse henkilökohtainen salausavaintiedosto";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Choose CA";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Valitse hakemisto";
+
+/* Contextual menu entry */
+"Choose file" = "Valitse tiedosto";
+
+/* No comment provided by engineer. */
+"Copy" = "Kopioi";
+
+/* Contextual menu action */
+"Copy name" = "Kopioi nimi";
+
+/* Contextual menu action */
+"Copy number" = "Kopioi numero";
+
+/* Contextual menu entry */
+"Create RING Account" = "Luo RING tunnus";
+
+/* Contextual menu entry */
+"Create SIP Account" = "Luo SIP Tunnus";
+
+/* File transfer failed label */
+"Failed" = "Epäonnistui";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Failed to migrate your account. You can retry by pressing Ok or delete your account.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "Kirjautumisessa tapahtui virhe";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "Saapuva puhelu %@";
+
+/* Message from {Name} */
+"Message from %@" = "Viesti %@";
+
+/* User label */
+"New SIP account" = "Uusi SIP tunnus";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "Salasana ei täsmää tunnuksen kanssa. ";
+
+/* Indication for user */
+"Password is too short" = "Password is too short";
+
+/* Indication for user */
+"Passwords don't match" = "Salasanat eivät täsmää";
+
+/* Button label */
+"Pause" = "Tauota";
+
+/* Button label */
+"Play" = "Toista";
+
+/* Button Action */
+"Refuse" = "Kieltäydy";
+
+/* Contextual menu entry */
+"Remove value" = "Poista arvo";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Reopen account to see your hash";
+
+/* Contextual menu entry */
+"Restore account" = "Palauta tunnus";
+
+/* Button title */
+"Revise Input" = "Revise Input";
+
+/* Text shown to the user */
+"RingID : " = "Ring tunnus:";
+
+/* No comment provided by engineer. */
+"Share" = "Jako";
+
+/* File transfer successful label */
+"Success" = "Success";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Tekstitoiminnot";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "Käyttäjänimi on käytettävissä";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "Käyttäjänimi ei ole pätevä: Vähintään 3 merkkiä, ja se saa sisältää vain pieniä kirjaimia numeroiden lisäksi. ";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "Käyttäjänimi ei ole käytettävissä";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "Tämä tunnus tulee siirtää uuteen Ring-tunnuksen muotoon:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "Antamasi salasana ei avaa tämän tunnuksen salaisuuksia";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "Jatkaaksesi tunnuksensiirtoa sinun tulee valita salasana tunnuksellesi. Tätä salasanaa käytetään pääavaimesi kryptaamiseen. Sitä tarvitaan uusien laitteiden yhdistämiseen Ring-tunnuksesi kanssa. Jos et nyt halua valita salasanaa, voit sulkea ohjelman ja jatkaa siirtoa myöhemmin. ";
+
+/* Name used when user leave field empty */
+"Unknown" = "Tuntematon";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "You have to migrate your account before exporting";
+

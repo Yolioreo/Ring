@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_primary_dark">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/share_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/share_your_account_information"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:gravity="center"
+        android:padding="@dimen/padding_small"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/share_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/qr_image"
+        android:layout_alignEnd="@+id/qr_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/qr_image"
+        android:gravity="center"
+        android:paddingBottom="24sp"
+        android:paddingTop="16sp"
+        android:text="@string/share_message"
+        android:textColor="@color/text_color_primary"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

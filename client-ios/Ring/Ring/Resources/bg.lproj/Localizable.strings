@@ -1,0 +1,115 @@
+﻿/*
+ *  Copyright (C) 2017 Savoir-faire Linux Inc.
+ *
+ *  Author: Silbino Gonçalves Matado <silbino.gmatado@savoirfairelinux.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ */
+
+// Global
+"global.homeTabBarTitle" = "Начало";
+"global.contactRequestsTabBarTitle" = "Invitations";
+"global.meTabBarTitle" = "Акаунт";
+"global.ok" = "Добре";
+
+// Smartlist
+"smartlist.yesterday" = "Вчера";
+"smartlist.userFound" = "User found";
+"smartlist.conversations" = "Разговори";
+"smartlist.searching" = "Searching...";
+"smartlist.noResults" = "No results";
+"smartlist.noNetworkConnectivity" = "Няма връзка с мрежата";
+"smartlist.cellularAccess" = "Be sure cellular access is granted in your settings";
+
+// Walkthrough
+
+//Welcome Screen
+"welcome.title" = "Добре дошли в Ring";
+"welcome.text" = "Ring is a free and universal communication platform which preserves the users' privacy and freedoms";
+"welcome.linkDevice" = "Свързване на това устройство с акаунт";
+"welcome.createAccount" = "Създаване на акаунт за Ring";
+
+//Creation Profile Screen
+"createProfile.createAccount" = "Skip to Create Account";
+"createProfile.createAccountWithProfile" = "Напред";
+"createProfile.linkDevice" = "Skip to Link Device";
+
+//Create Account form
+"createAccount.createAccountFormTitle" = "Създаване на акаунт в Ring";
+"createAccount.chooseStrongPassword" = "Choose strong password you will remember to protect your Ring account.";
+"createAccount.enterNewUsernamePlaceholder" = "потребителско име";
+"createAccount.newPasswordPlaceholder" = "парола";
+"createAccount.repeatPasswordPlaceholder" = "confirm password";
+"createAccount.passwordCharactersNumberError" = "Най-малко 6 знака";
+"createAccount.passwordNotMatchingError" = "passwords do not match";
+"createAccount.lookingForUsernameAvailability" = "looking for username availability";
+"createAccount.invalidUsername" = "invalid username";
+"createAccount.usernameAlreadyTaken" = "username already taken";
+"createAccount.loading" = "Loading";
+"createAccount.waitCreateAccountTitle" = "Добавяне на акаунт";
+
+//Link To Account form
+"linkToAccount.waitLinkToAccountTitle" = "Account linking";
+"linkToAccount.linkButtonTitle" = "Link device";
+"linkToAccount.passwordPlaceholder" = "парола";
+"linkToAccount.pinPlaceholder" = "Личен Разпознавателен Код";
+"linkToAccount.passwordLabel" = "Enter Password";
+"linkToAccount.pinLabel" = "Въведете ПИН";
+"linkToAccount.explanationPinMessage" = "To generate the PIN code, go to the account managment settings on device that contain account you want to use. In devices settings Select \"Link another device to this account\". You will get the necessary PIN to complete this form. The PIN is only valid for 10 minutes.";
+
+//Alerts
+"alerts.accountCannotBeFoundTitle" = "Акаунтът не може да бъде открит";
+"alerts.accountCannotBeFoundMessage" = "Account couldn't be found on the Ring network. Make sure it was exported on Ring from an existing device, and that provided credentials are correct.";
+"alerts.accountAddedTitle" = "Account Added";
+"alerts.accountNoNetworkTitle" = "Неуспешна връзка с мрежата";
+"alerts.accountNoNetworkMessage" = "Could not add account because Ring couldn't connect to the distributed network. Check your device connectivity.";
+"alerts.accountDefaultErrorTitle" = "Unknown error";
+"alerts.accountDefaultErrorMessage" = "The account couldn't be created.";
+"alerts.profileTakePhoto" = "Направи снимка";
+"alerts.profileUploadPhoto" = "Upload photo";
+"alerts.profileCancelPhoto" = "Отказ";
+"alerts.accountLinkedTitle" = "Linking account";
+"alerts.dbFailedTitle" = "An error happned when launching Ring";
+"alerts.dbFailedMessage" = "Please close application and try to open it again";
+"alerts.confirmBlockContact" = "Are you sure you want to block this contact? The conversation history with this contact will also be deleted permanently.";
+"alerts.confirmBlockContactTitle" = "Block Contact";
+"alerts.confirmDeleteConversation" = "Are you sure you want to delete this conversation permanently?";
+"alerts.confirmDeleteConversationTitle" = "Delete Conversation";
+
+//Actions
+"actions.blockAction" = "Блокиране";
+"actions.deleteAction" = "Изтриване";
+"actions.cancelAction" = "Отказ";
+"alerts.incomingCallAllertTitle" = "Incoming call from ";
+"alerts.incomingCallButtonAccept" = "Приемане";
+"alerts.incomingCallButtonIgnore" = "Игнориране";
+
+//Calls
+"calls.callItemTitle" = "Обаждане";
+"calls.unknown" = "Неизвестно";
+"calls.incomingCallInfo" = "wants to talk to you";
+"calls.calling" = "Calling...";
+"calls.callFinished" = "Call finished";
+
+//Account Page
+"accountPage.devicesListHeader" = "Устройства";
+
+//Link New Device
+"linkDevice.title" = "Link a new device";
+"linkDevice.passwordError" = "The password you entered does not unlock this account";
+"linkDevice.networkError" = "A network error occured during the export";
+"linkDevice.defaultError" = "Възникна грешка при изнасянето";
+"linkDevice.explanationMessage" = "To complete the process, you need to open Ring on the new device and choose the option \"Link this device to an account.\" Your pin is valid for 10 minutes";
+"linkDevice.hudMessage" = "Verifying";

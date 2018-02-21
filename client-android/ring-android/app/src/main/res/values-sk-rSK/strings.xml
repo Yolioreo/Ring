@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--About-->
+  <string name="feedback_section">Spätná väzba</string>
+  <string name="report">Pošlite nám email</string>
+  <string name="section_license">Licencia</string>
+  <string name="sponsor_section">Ring je voľný software vyvinutý a podporovaný</string>
+  <string name="copyright_section">Copyright</string>
+  <string name="contribute_section">Prispejte</string>
+  <string name="version_section">Verzia</string>
+  <string name="no_email_app_installed">Nainštaluj emailovú aplikáciu, aby si nám poslal správu.</string>
+  <string name="no_browser_app_installed">Nebol nájdený žiaden webový prehliadač, na zobrazenie tejto stránky si nejaký nainštalujte</string>
+  <string name="email_chooser_title">Email </string>
+  <string name="website_chooser_title">Zobraziť stránku cez...</string>
+  <string name="license">Tento software je distribuovaný \"taký aký je\", bez záruky akéhokoľvek druhu. Pre detaily pozri
+GNU General Public Licence verziu 3 alebo neskoršie</string>
+  <!--About dialog-->
+  <!--RingActivity-->
+  <string name="title_activity_sflphone_home">Ring</string>
+  <string name="error_no_network">Žiadne sieťové pripojenie</string>
+  <!--AB menus-->
+  <string name="ab_action_chat">Textová správa</string>
+  <!--Left Drawer-->
+  <!--Accessibility-->
+  <!--Sections-->
+  <string name="menu_item_home">Domov</string>
+  <string name="menu_item_accounts">Nastavenie účtov</string>
+  <string name="menu_item_settings">Nastavenie</string>
+  <string name="menu_item_share">Zdieľaj moje kontakty</string>
+  <string name="menu_item_about">O programe Ring</string>
+  <!--Dialing Fragment-->
+  <string name="dial_number">Vytoč číslo</string>
+  <!--History Fragment-->
+  <!--DetailsHistory Fragment-->
+  <!--Home Fragment-->
+  <!--ContactList Fragment-->
+  <string name="choose_number">Vyberte číslo</string>
+  <!--FileExplorerDFragement-->
+  <!--TransferDFragment-->
+  <!--Notifications-->
+  <string name="notif_channel_calls">Hovory</string>
+  <!--Call Fragment-->
+  <string name="action_call_hangup">Zlož</string>
+  <string name="action_call_accept">Zdvihni hovor</string>
+  <string name="ab_action_flipcamera">Otoč kameru</string>
+  <!--Text messages-->
+  <string name="send_message">Vyšli správu</string>
+  <!--MediaPreferenceFragment-->
+  <string name="ringtone_error_title">Chyba</string>
+  <string name="ringtone_error_format_not_supported">Tento formát nie je podporovaný.</string>
+  <!--Read contacts permission-->
+  <!--Write call log permission-->
+  <!--QRCode Scan-->
+  <!--Settings-->
+  <!--Conversation-->
+  <!--Contacts-->
+  <string name="wizard_next">Ďalej</string>
+  <!--MenuHeaderView-->
+  <string name="profile">Môj profil</string>
+  <string name="open_the_gallery">Otvor galériu</string>
+  <string name="take_a_photo">Sprav fotografiu</string>
+  <!--Share fragment-->
+  <string name="share_your_account_information">Zdielaj </string>
+  <string name="generic_error_migration">Chyba</string>
+  <!--Pending contact requests-->
+  <!--Send contact requests-->
+  <!--Blacklist-->
+  <!--Smartlist-->
+  <string name="tv_contact_row_header">Kontakty</string>
+  <!--File Transfer-->
+</resources>

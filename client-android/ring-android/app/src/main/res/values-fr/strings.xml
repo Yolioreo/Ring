@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--About-->
+  <string name="feedback_section">Commentaire</string>
+  <string name="report">&lt;u&gt;Envoyez nous un courriel&lt;/u&gt;</string>
+  <string name="section_license">Licence</string>
+  <string name="sponsor_section">Ring est un logiciel libre développé et soutenu par</string>
+  <string name="copyright_section">Copyright</string>
+  <string name="contribute_section">Contribuer</string>
+  <string name="version_section">Version</string>
+  <string name="no_email_app_installed">Application d\'envoi de courriel non-trouvée, installez-en un et renvoyez-nous votre rapport</string>
+  <string name="no_browser_app_installed">Aucun navigateur internet trouvé, installez en un pour afficher cette page</string>
+  <string name="email_chooser_title">Envoi du courriel à travers ...</string>
+  <string name="website_chooser_title">Voir le site web avec...</string>
+  <string name="license">Ce logiciel est offert \"tel quel\", sans aucune garantie. Pour plus d\'informations, 
+&lt;u&gt;GNU General Public License version 3 or later&lt;/u&gt;</string>
+  <string name="description">Ring est un logiciel libre de communication universelle qui respecte les libertés et la vie privée de ses utilisateurs.</string>
+  <string name="credits">Crédits</string>
+  <!--About dialog-->
+  <string name="developed_by">Développé par</string>
+  <string name="designed_by">Conçu par</string>
+  <!--RingActivity-->
+  <string name="title_activity_sflphone_home">Ring</string>
+  <string name="error_no_network">Pas d\'accès au réseau</string>
+  <string name="error_mobile_network_available_but_disabled">Autorisez l\'accès au réseau cellulaire dans les options de configuration s\'il vous plaît</string>
+  <!--AB menus-->
+  <string name="ab_action_chat">Messagerie texte</string>
+  <!--Left Drawer-->
+  <!--Accessibility-->
+  <string name="drawer_open">Ouvrir le tiroir de navigation</string>
+  <string name="drawer_close">Fermer le tiroir de navigation</string>
+  <!--Sections-->
+  <string name="menu_item_home">Accueil</string>
+  <string name="menu_item_contact_request">Invitations</string>
+  <string name="menu_item_accounts">Gérer les comptes</string>
+  <string name="menu_item_account">Gestion du compte</string>
+  <string name="menu_item_settings">Paramètres</string>
+  <string name="menu_item_share">Partager mon contact</string>
+  <string name="menu_item_about">À propos de Ring</string>
+  <!--Dialing Fragment-->
+  <string name="dial_number">Composez un numéro</string>
+  <!--History Fragment-->
+  <!--DetailsHistory Fragment-->
+  <!--Home Fragment-->
+  <plurals name="home_conferences_title">
+    <item quantity="one">%d Conversation</item>
+    <item quantity="other">%d Conversations</item>
+  </plurals>
+  <!--ContactList Fragment-->
+  <string name="searchbar_hint">Taper un nom ou un numéro…</string>
+  <string name="choose_number">Choisissez un numéro</string>
+  <!--FileExplorerDFragement-->
+  <!--TransferDFragment-->
+  <!--Notifications-->
+  <string name="notif_missed_incoming_call">Appel entrant manqué</string>
+  <string name="notif_missed_outgoing_call">Appel sortant manqué</string>
+  <string name="notif_incoming_call_title">Appel entrant de %1$s</string>
+  <string name="notif_incoming_call">Appel entrant</string>
+  <string name="notif_outgoing_call_title">Appel sortant vers %1$s</string>
+  <string name="notif_outgoing_call">Appel sortant</string>
+  <string name="notif_current_call_title">Appel en cours avec %1$s</string>
+  <string name="notif_current_call">Appel en cours</string>
+  <string name="notif_channel_calls">Appels</string>
+  <string name="notif_channel_messages">Messages</string>
+  <string name="notif_channel_requests">Sollicitations</string>
+  <string name="notif_channel_file_transfer">Transfert de fichier</string>
+  <string name="notif_mark_as_read">Marquer comme lu</string>
+  <string name="notif_incoming_file_transfer_title">Transfert de fichier entrant</string>
+  <string name="notif_incoming_file_transfer">Quelqu\'un souhaite vous envoyer un fichier</string>
+  <string name="action_open">Ouvrir</string>
+  <!--Call Fragment-->
+  <string name="you_txt_prefix">Vous :</string>
+  <string name="action_call_hangup">Raccrochez</string>
+  <string name="ongoing_call">Appel en cours</string>
+  <string name="hist_in_call">Appel entrant de %1$s</string>
+  <string name="hist_out_call">Appel sortant de %1$s</string>
+  <string name="start_error_title">Impossible de démarrer Ring |</string>
+  <string name="start_error_mic_required">Ring nécessite les permissions d\'accès au micro pour fonctionner.</string>
+  <string name="action_call_accept">Répondre</string>
+  <string name="action_call_decline">Décliner</string>
+  <string name="ab_action_speakerphone">Activer le haut-parleur</string>
+  <string name="ab_action_contact_add">Ajouter aux contacts</string>
+  <string name="ab_action_contact_add_question">Ajouter aux contacts ?</string>
+  <string name="ab_action_audio_call">Appel audio</string>
+  <string name="ab_action_video_call">Appel vidéo</string>
+  <string name="ab_action_change_screen_orientation">Changer l\'orientation de l\'écran</string>
+  <string name="share_via">Partager</string>
+  <string name="write_a_message">Ecrire un message</string>
+  <string name="scan_qr">Scanner un code QR</string>
+  <string name="ab_action_flipcamera">Changer de caméra</string>
+  <!--Text messages-->
+  <string name="send_message">Envoyer le message</string>
+  <string name="message_sending">Envoi du message</string>
+  <string name="time_just_now">À l\'instant</string>
+  <string name="send_file">Envoyez un fichier</string>
+  <!--MediaPreferenceFragment-->
+  <string name="permission_dialog_camera_title">Permission d\'accès à la caméra</string>
+  <string name="permission_dialog_camera_message">Les conversation vidéo nécessitent la permission d\'utiliser l\'objectif. Merci de l\'autoriser.</string>
+  <string name="ringtone_error_title">Erreur</string>
+  <string name="ringtone_error_format_not_supported">Ce format de fichier n\'est pas supporté.</string>
+  <string name="ringtone_error_size_too_big">Ce fichier est trop gros. La taille maximale est de %1$iko.</string>
+  <!--Read contacts permission-->
+  <string name="permission_dialog_read_contacts_message">Ring a besoin d\'accéder en lecture à votre liste de contact. SVP autorisez-le.</string>
+  <!--Write call log permission-->
+  <string name="permission_dialog_write_call_log_message">Ring a besoin d\'accéder en écriture à votre liste de contact. SVP autorisez-le.</string>
+  <!--QRCode Scan-->
+  <string name="scan_qr_account_message">Numérisez le code QR de votre interlocuteur.</string>
+  <!--Settings-->
+  <string name="clear_history_dialog_title">Effacer le journal d\'appels ?</string>
+  <string name="clear_history_dialog_message">Cette action est irréversible.</string>
+  <string name="clear_history_completed">Le journal d\'appels a été effacé.</string>
+  <!--Conversation-->
+  <string name="conversation_action_delete_this">Supprimer la conversation</string>
+  <string name="conversation_action_delete_this_title">Supprimer la conversation ?</string>
+  <string name="conversation_action_delete_this_message">Cette action est irréversible.</string>
+  <string name="conversation_action_copy_peer_number">Copier le numéro ou identifiant Ring</string>
+  <string name="conversation_action_copied_peer_number_clipboard">%1$s copié vers leclipboard</string>
+  <string name="conversation_action_select_peer_number">Choisir un numéro</string>
+  <string name="conversation_action_block_this">Bloquer ce contact</string>
+  <!--Contacts-->
+  <string name="add_call_contact_number_to_contacts">Ajouter %1$s</string>
+  <string name="prompt_new_password">Nouveau mot de passe</string>
+  <string name="prompt_new_password_optional">Nouveau mot de passe (optionnel)</string>
+  <string name="prompt_new_password_repeat">Confirmez le mot de passe</string>
+  <string name="account_create_title">Créer un compte Ring</string>
+  <string name="prompt_new_username">Entrez un nouveau nom d\'utilisateur</string>
+  <string name="help_password_choose">Pour protéger votre compte Ring, choisissez un mot de passe robuste dont vous vous rappellerez.</string>
+  <string name="help_password_enter">Entrez le mot de passe de votre compte Ring</string>
+  <string name="help_pin_enter">Entrez le NIP obtenu en configurant un autre compte Ring . Utilisez la fonction \"exportez un compte sur Ring\" pour obtenir un NIP.</string>
+  <string name="wizard_next">Suivant</string>
+  <string name="wizard_back">Précédent</string>
+  <!--MenuHeaderView-->
+  <string name="profile">Mon profil</string>
+  <string name="profile_message_warning">Votre profil n\'est partagé qu\'avec vos contacts</string>
+  <string name="open_the_gallery">Ouvrir la galerie</string>
+  <string name="take_a_photo">Prendre une photo</string>
+  <string name="profile_name_hint">Entrez votre nom (facultatif)</string>
+  <!--Share fragment-->
+  <string name="share_message">Scannez ce QRCode avec le scanner intégré de l\'application Ring qui souhaite communiquer avec vous.</string>
+  <string name="share_message_no_account">Veuillez sélectionner le compte à partager.</string>
+  <string name="share_your_account_information">Partagez mes coordonnées</string>
+  <string name="generic_error_migration">Erreur</string>
+  <string name="generic_error_migration_message">Une erreur est survenue pendant la migration</string>
+  <!--Pending contact requests-->
+  <string name="accept">Accepter</string>
+  <string name="refuse">Refuser</string>
+  <string name="block">Bloquer</string>
+  <string name="contact_request_title">Nouvelle demande de contact  </string>
+  <string name="contact_request_msg">Vous avez %1$s demande(s) d\'ajout</string>
+  <string name="contact_request_account">Pour %1$s</string>
+  <string name="no_requests">Aucune demande de contact</string>
+  <!--Send contact requests-->
+  <string name="send_request_button">Envoyer</string>
+  <string name="send_request_title">Envoyer une invitation</string>
+  <string name="send_request_msg">Pour communiquer avec cet utilisateur il est nécessaire de lui envoyer une invitation. Tant que cette personne n\'a pas accepté votre invitation, vous pouvez lui envoyer des messages mais ils ne pourront être lu.</string>
+  <!--Blacklist-->
+  <string name="no_blocked_contact">Aucun contact bloqué</string>
+  <!--Smartlist-->
+  <string name="no_contact_request">Aucune invitation envoyée</string>
+  <string name="contact_request_sent">Invitation envoyée</string>
+  <string name="search_results">Résultats de la recherche</string>
+  <string name="tv_contact_row_header">Contacts</string>
+  <string name="gallery_error_title">Aucune application Gallery sur l\'appareil</string>
+  <string name="gallery_error_message">Aucune application trouvé sur l\'appareil pour ouvrir Gallery</string>
+  <string name="generic_error">Une étrange erreur s\'est produite</string>
+  <!--File Transfer-->
+  <string name="invalid_file">Fichier invalide</string>
+  <string name="not_able_to_write_file">Impossible d\'écrire le fichier</string>
+  <string name="file_transfer_status_created">Initialisation du transfert</string>
+  <string name="file_transfer_status_unsupported">Non supporté</string>
+  <string name="file_transfer_status_wait_peer_acceptance">Attente de l\'autorisation du destinataire </string>
+  <string name="file_transfer_status_wait_host_acceptance">Attente de l\'autorisation de l\'appareil</string>
+  <string name="file_transfer_status_ongoing">en cours</string>
+  <string name="file_transfer_status_finished">terminé</string>
+  <string name="file_transfer_status_closed_by_host">fermé par l\'appareil</string>
+  <string name="file_transfer_status_closed_by_peer">fermé par l\'interlocuteur</string>
+  <string name="file_transfer_status_invalid_pathname">Chemin d\'accès invalide</string>
+  <string name="file_transfer_status_unjoinable_peer">interlocuteur injoignable</string>
+  <string name="file_saved_in">Fichier sauvegardé dans %s</string>
+</resources>

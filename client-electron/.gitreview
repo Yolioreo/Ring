@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit-ring.savoirfairelinux.com
+port=29419
+project=ring-client-electron
+defaultbranch=master

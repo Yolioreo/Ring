@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Při vyvádění došlo k chybě sítě";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Přidat do kontaktů";
+
+/* Text shown to the user */
+"Alias : " = "Přezdívka:";
+
+/* Error shown to the user */
+"An error occured during the export" = "Při vyvádění došlo k chybě";
+
+/* Contextual menu entry */
+"Backup account" = "Zálohovat účet";
+
+/* Contextual menu action */
+"Call number" = "Volat číslo";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Vyberte seznam CA";
+
+/* Open panel title */
+"Choose a certificate" = "Vyberte certifikát";
+
+/* Open panel title */
+"Choose a directory" = "Vyberte adresář";
+
+/* Open panel title */
+"Choose a private key file" = "Vyberte soubor se soukromým klíčem";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Vybrat CA";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Vybrat adresář";
+
+/* Contextual menu entry */
+"Choose file" = "Vybrat soubor";
+
+/* No comment provided by engineer. */
+"Copy" = "Zkopírovat";
+
+/* Contextual menu action */
+"Copy name" = "Kopírovat název";
+
+/* Contextual menu action */
+"Copy number" = "Kopírovat číslo";
+
+/* Contextual menu entry */
+"Create RING Account" = "Vytvořit účet RING";
+
+/* Contextual menu entry */
+"Create SIP Account" = "Vytvořit účet SIP";
+
+/* File transfer failed label */
+"Failed" = "Hovor selhal";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Nepodařilo se přestěhovat váš účet. Můžete to zkusit ještě jednou stisknutím OK nebo svůj účet smazat.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "Vyhledávání selhalo";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "Příchozí hovor od %@";
+
+/* Message from {Name} */
+"Message from %@" = "Zpráva od  %@";
+
+/* User label */
+"New SIP account" = "Nový účet SIP";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "Heslo a jeho potvrzení se neshodují";
+
+/* Indication for user */
+"Password is too short" = "Heslo je příliš krátké";
+
+/* Indication for user */
+"Passwords don't match" = "Hesla se neshodují";
+
+/* Button label */
+"Pause" = "Pozastavit";
+
+/* Button label */
+"Play" = "Přehrát";
+
+/* Button Action */
+"Refuse" = "Odmítnout";
+
+/* Contextual menu entry */
+"Remove value" = "Odstranit hodnotu";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Znovuotevřít účet a podívat se na váš hash";
+
+/* Contextual menu entry */
+"Restore account" = "Obnovit účet";
+
+/* Button title */
+"Revise Input" = "Pozměnit vstup";
+
+/* Text shown to the user */
+"RingID : " = "RingID : ";
+
+/* No comment provided by engineer. */
+"Share" = "Sdílet";
+
+/* File transfer successful label */
+"Success" = "Úspěch";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Textové činnosti";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "Zadané uživatelské jméno je dostupné";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "Zadané uživatelské jméno je neplatné. Musí obsahovat alespoň 3 znaky a skládat se pouze z malých písmen a číslic.";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "Zadané uživatelské jméno není dostupné";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "Následující účet musí být převeden do nového formátu účtů Ring:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "Vámi zadané heslo neodemkne tento účet";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "Pro dokončení tohoto postupu otevřete Ring na novém zařízení a vyberte volbu „Připojit toto zařízení k účtu“. Váš PIN zůstává platný 10 minut.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "Pro pokračování v převodu si musíte k účtu zvolit heslo. Toto heslo bude použito k zašifrování vašeho hlavního klíče. Bude požadováno pro přidávání nových zařízení k vašemu účtu Ring. Pokud nejste připraveni si heslo zvolit, můžete Ring zavřít a pokračovat v převodu později.";
+
+/* Name used when user leave field empty */
+"Unknown" = "Neznámé";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "Musíte převést svůj účet před vyvedením";
+

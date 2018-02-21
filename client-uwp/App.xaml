@@ -1,0 +1,70 @@
+﻿<!-- **********************************************************************
+* Copyright (C) 2016 by Savoir-faire Linux                                *
+* Author: Jäger Nicolas<nicolas.jager@savoirfairelinux.com>               *
+*                                                                         *
+* This program is free software; you can redistribute it and/or modify    *
+* it under the terms of the GNU General Public License as published by    *
+* the Free Software Foundation; either version 3 of the License, or       *
+* (at your option) any later version.                                     *
+*                                                                         *
+* This program is distributed in the hope that it will be useful,         *
+* but WITHOUT ANY WARRANTY; without even the implied warranty of          *
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           *
+* GNU General Public License for more details.                            *
+*                                                                         *
+* You should have received a copy of the GNU General Public License       *
+* along with this program.  If not, see <http://www.gnu.org/licenses/> .  *
+*********************************************************************** -->
+<Application
+    x:Class="RingClientUWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RingClientUWP"
+    xmlns:views="using:RingClientUWP.Views"
+    xmlns:cnv="using:RingClientUWP.Converters"
+    xmlns:uc="using:RingClientUWP.UserAndCustomControls">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--  converters  -->
+            <cnv:BubbleBackground x:Key="_bubbleBackground_" />
+            <cnv:BubbleHorizontalAlignement x:Key="_bubbleHorizontalAlignement_" />
+            <cnv:boolToVisibility x:Key="_boolToVisibility_" />
+            <cnv:MessageDateTimeString x:Key="_MessageDateTimeString_" />
+            <cnv:MessageChainBreakToVisibility x:Key="_MessageChainBreakToVisibility_" />
+            <cnv:MessageChainBreakToHeight x:Key="_MessageChainBreakToHeight_" />
+            <cnv:CachedImageConverter x:Key="_CachedImageConverter_" />
+            <cnv:NameToInitialConverter x:Key="_NameToInitialConverter_" />
+            <cnv:NewMessageBubbleNotification x:Key="_NewMessageBubbleNotification_" />
+            <cnv:NewMessageNotificationToNumber x:Key="_NewMessageNotificationToNumber_" />
+            <cnv:IncomingVisibility x:Key="_IncomingVisibility_" />
+            <cnv:OutGoingVisibility x:Key="_OutGoingVisibility_" />
+            <cnv:HasAnActiveCall x:Key="_HasAnActiveCall_" />
+            <cnv:HasAvatarToVisibility x:Key="_HasAvatarToVisibility_" />
+            <cnv:AccountTypeToSourceImage x:Key="_AccountTypeToSourceImage_" />
+            <cnv:RingAccountTypeToVisibility x:Key="_RingAccountTypeToVisibility_" />
+            <cnv:AccountSelectedToVisibility x:Key="_AccountSelectedToVisibility_" />
+            <cnv:CollapseEmptyString x:Key="_CollapseEmptyString_" />
+            <cnv:ContactStatusNotification x:Key="_ContactStatusNotification_" />
+            <cnv:uintToVisibility x:Key="_uintToVisibility_" />
+            <cnv:OneToVisibility x:Key="_OneToVisibility_" />
+            <cnv:PresenceStatus x:Key="_PresenceStatus_" />
+            <cnv:MoreThanOneToVisibility x:Key="_MoreThanOneToVisibility_" />
+            <cnv:MoreThanZeroToVisibility x:Key="_MoreThanZeroToVisibility_" />
+            <cnv:UnreadAccountNotificationsString x:Key="_UnreadAccountNotificationsString_" />
+            <cnv:PartialTrustToVisibility x:Key="_PartialTrustToVisibility_" />
+            <cnv:TrustedToVisibility x:Key="_TrustedToVisibility_" />
+            <cnv:SelectedAccountToVisibility x:Key="_SelectedAccountToVisibility_" />
+            <cnv:CallStatusToSpinnerVisibility x:Key="_CallStatusToSpinnerVisibility_" />
+            <cnv:CallStatusForIncomingCallEllipse x:Key="_CallStatusForIncomingCallEllipse_" />
+            <cnv:AccountRegistrationStateToString x:Key="_AccountRegistrationStateToString_" />
+            <cnv:AccountRegistrationStateToForeground x:Key="_AccountRegistrationStateToForeground_" />
+            <cnv:ContactAccountTypeToVisibility x:Key="_ContactAccountTypeToVisibility_" />
+            <cnv:ContactConferenceableToVisibility x:Key="_ContactConferenceableToVisibility_" />
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

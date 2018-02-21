@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/cx/ring/RingGnome/" id="cx.ring.RingGnome">
+    <key name="start-on-login" type="b">
+        <default>true</default>
+        <summary>Start Ring on login.</summary>
+        <description>Start Ring on login. Only supported on XDG compliant desktop environments.</description>
+    </key>
+    <key name="show-status-icon" type="b">
+        <default>true</default>
+        <summary>Show status (system tray) icon.</summary>
+        <description>When set to true Ring will continue to run if the main window is closed.</description>
+    </key>
+    <key name="bring-window-to-front" type="b">
+        <default>true</default>
+        <summary>Bring window to foreground on incoming calls.</summary>
+        <description>Bring window to foreground on incoming calls.</description>
+    </key>
+    <key name="show-main-window" type="b">
+        <default>true</default>
+        <summary>Saves whether or not the main window is currently visible or not.</summary>
+        <description>This is used when launching the application with the '--restore-last-window-state' option, which will launch the application with the main window in the same state as when Ring was last quit.</description>
+    </key>
+    <key name="chat-pane-horizontal" type="b">
+        <default>true</default>
+        <summary>Display the chat to the rigth (default) or at the bottom.</summary>
+        <description>If the chat pane is horizontal then the chat is displayed to the right of the video; otherwise it will be displayed bellow it.</description>
+    </key>
+    <key name="enable-display-links" type="b">
+        <default>true</default>
+        <summary>Enable chatview to display external images.</summary>
+    </key>
+    <key name="enable-call-notifications" type="b">
+        <default>true</default>
+        <summary>Enable notifications for incoming calls.</summary>
+    </key>
+    <key name="enable-chat-notifications" type="b">
+        <default>true</default>
+        <summary>Enable notifications for new chat messages.</summary>
+    </key>
+    <key name="window-width" type="i">
+        <default>800</default>
+        <summary>Main window width.</summary>
+        <description>Main window width.</description>
+    </key>
+    <key name="window-height" type="i">
+        <default>500</default>
+        <summary>Main window height.</summary>
+        <description>Main window height.</description>
+    </key>
+    <key name="search-entry-places-call" type="b">
+        <default>false</default>
+        <summary>Entering a number in the search entry places a new call.</summary>
+        <description>Entering a number in the search entry places a new call. If false, then this will instead open a chat view.</description>
+    </key>
+    <key name="selected-account" type="s">
+        <default>""</default>
+        <summary>The user selected account.</summary>
+        <description>The account id of the user selected account; if empty there is no valid account selected.</description>
+    </key>
+    <key name="history-limit" type="i">
+        <default>0</default>
+        <summary>Number of days to store the history.</summary>
+        <description>Keep history only within the limit. 0 for unlimited history.</description>
+    </key>
+  </schema>
+</schemalist>

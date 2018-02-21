@@ -1,0 +1,152 @@
+[main]
+host = https://www.transifex.com
+
+[ring.localizablestrings]
+file_filter = ui/<lang>.lproj/Localizable.strings
+source_file = ui/Base.lproj/Localizable.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccAdvanced]
+file_filter = ui/<lang>.lproj/AccAdvanced.strings
+source_file = ui/Base.lproj/AccAdvanced.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccMedia]
+file_filter = ui/<lang>.lproj/AccMedia.strings
+source_file = ui/Base.lproj/AccMedia.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccGeneral]
+file_filter = ui/<lang>.lproj/AccGeneral.strings
+source_file = ui/Base.lproj/AccGeneral.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccounts]
+file_filter = ui/<lang>.lproj/Accounts.strings
+source_file = ui/Base.lproj/Accounts.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccRing]
+file_filter = ui/<lang>.lproj/AccRing.strings
+source_file = ui/Base.lproj/AccRing.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAccSecurity]
+file_filter = ui/<lang>.lproj/AccSecurity.strings
+source_file = ui/Base.lproj/AccSecurity.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxAudioPrefs]
+file_filter = ui/<lang>.lproj/AudioPrefs.strings
+source_file = ui/Base.lproj/AudioPrefs.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxCertificateWindow]
+file_filter = ui/<lang>.lproj/CertificateWindow.strings
+source_file = ui/Base.lproj/CertificateWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxCurrentCall]
+file_filter = ui/<lang>.lproj/CurrentCall.strings
+source_file = ui/Base.lproj/CurrentCall.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxGeneralPrefs]
+file_filter = ui/<lang>.lproj/GeneralPrefs.strings
+source_file = ui/Base.lproj/GeneralPrefs.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxMainMenu]
+file_filter = ui/<lang>.lproj/MainMenu.strings
+source_file = ui/Base.lproj/MainMenu.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxPersonLinker]
+file_filter = ui/<lang>.lproj/PersonLinker.strings
+source_file = ui/Base.lproj/PersonLinker.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxPreferencesWindow]
+file_filter = ui/<lang>.lproj/PreferencesWindow.strings
+source_file = ui/Base.lproj/PreferencesWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRingWindow]
+file_filter = ui/<lang>.lproj/RingWindow.strings
+source_file = ui/Base.lproj/RingWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRingWizard]
+file_filter = ui/<lang>.lproj/RingWizard.strings
+source_file = ui/Base.lproj/RingWizard.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxVideoPrefs]
+file_filter = ui/<lang>.lproj/VideoPrefs.strings
+source_file = ui/Base.lproj/VideoPrefs.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxConversation]
+file_filter = ui/<lang>.lproj/Conversation.strings
+source_file = ui/Base.lproj/Conversation.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxBackupAccountWindow]
+file_filter = ui/<lang>.lproj/BackupAccountWindow.strings
+source_file = ui/Base.lproj/BackupAccountWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxExportPasswordWindow]
+file_filter = ui/<lang>.lproj/ExportPasswordWindow.strings
+source_file = ui/Base.lproj/ExportPasswordWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRingWizardNewAccount]
+file_filter = ui/<lang>.lproj/RingWizardNewAccount.strings
+source_file = ui/Base.lproj/RingWizardNewAccount.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRingWizardLinkAccount]
+file_filter = ui/<lang>.lproj/RingWizardLinkAccount.strings
+source_file = ui/Base.lproj/RingWizardLinkAccount.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRingWizardChoose]
+file_filter = ui/<lang>.lproj/RingWizardChoose.strings
+source_file = ui/Base.lproj/RingWizardChoose.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxRegisterNameWindow]
+file_filter = ui/<lang>.lproj/RegisterNameWindow.strings
+source_file = ui/Base.lproj/RegisterNameWindow.strings
+source_lang = en
+type = STRINGS
+
+[ring.osxMigrateRingAccountsWindow]
+file_filter = ui/<lang>.lproj/MigrateRingAccountsWindow.strings
+source_file = ui/Base.lproj/MigrateRingAccountsWindow.strings
+source_lang = en
+type = STRINGS

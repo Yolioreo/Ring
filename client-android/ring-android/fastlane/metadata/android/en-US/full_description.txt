@@ -1,0 +1,14 @@
+Ring allows to make audio or video calls, and to send messages, safely and freely, in confidence. Developed by Savoir-faire Linux, Ring is a Free and open source software that requires no central server.
+
+What can you do with Ring:
+  - send text messages
+  - make audio calls
+  - make video calls
+  - send files
+  - use your existing SIP account
+
+There are plenty of ways to help us, check out: https://ring.cx/en/contribute
+
+You can also install Ring on Windows, macOS, iOS and GNU/Linux.
+
+All the info is on https://ring.cx/en

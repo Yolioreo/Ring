@@ -1,0 +1,59 @@
+{
+  "name": "ring-electron-client",
+  "version": "0.0.1",
+  "description": "A web based ring client.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "yarn run build:dev && yarn run start:dev",
+    "build:dev": "yarn run clean:dist && cross-env NODE_ENV=development webpack",
+    "build:prod": "yarn run clean:dist && cross-env NODE_ENV=production webpack",
+    "clean": "yarn run clean:dist",
+    "clean:dist": "rimraf ./build",
+    "clean:package": "rimraf ./release-builds",
+    "package": "yarn run clean:package && yarn run build:prod && yarn run package:all",
+    "package:all": "yarn run package:win && yarn run package:mac && yarn run package:linux",
+    "package:win": "cross-env NODE_ENV=production electron-packager . Ring --prune --platform=win32 --out=./release-builds",
+    "package:mac": "cross-env NODE_ENV=production electron-packager . Ring --prune --platform=darwin --out=./release-builds",
+    "package:linux": "cross-env NODE_ENV=production electron-packager . Ring --prune --platform=linux --out=./release-builds",
+    "start": "yarn run build:prod && cross-env NODE_ENV=production electron .",
+    "start:dev": "cross-env NODE_ENV=development electron .",
+    "watch": "cross-env NODE_ENV=development ./node_modules/.bin/webpack-dev-server --port 8182"
+  },
+  "author": "Etienne Phélip <etienne.phelip@savoirlinux.com>",
+  "contributors": [
+    "Anthony Guimard <anthony.guimard@savoirlinux.com>",
+    "Istvan Szalai <istvan.szalai@savoirfairelinux.com>"
+  ],
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.0",
+    "css-loader": "^0.28.1",
+    "electron": "^1.6.8",
+    "electron-packager": "^8.7.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.0.0-beta.8"
+  },
+  "devEngines": {
+    "node": ">=6.x",
+    "npm": ">=3.x",
+    "yarn": ">=0.21.3"
+  }
+}

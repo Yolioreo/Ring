@@ -1,0 +1,1240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# a a <gfvbjhgf@mailinator.com>, 2016
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2016
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ring\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-19 03:09-0500\n"
+"PO-Revision-Date: 2018-02-05 03:09+0000\n"
+"Last-Translator: Alexandre Lision\n"
+"Language-Team: Greek (http://www.transifex.com/savoirfairelinux/ring/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ui/ringgearsmenu.ui:13
+msgid "_About"
+msgstr "Σχετικά"
+
+#: ui/ringgearsmenu.ui:19
+msgid "_Quit"
+msgstr "Έξοδος"
+
+#: ui/choosecontactview.ui:34
+msgid "Create New"
+msgstr "Δημιουργία νέας"
+
+#: ui/accountmigrationview.ui:14
+msgid "Account migration required"
+msgstr "Απαιτείται ενοποίηση λογαριασμού"
+
+#: ui/accountmigrationview.ui:39
+msgid "Alias:"
+msgstr "Ψευδώνυμο:"
+
+#: ui/accountmigrationview.ui:102
+msgid "Please enter your password:"
+msgstr "Παρακαλώ εισάγετε το συνθηματικό σας:"
+
+#: ui/accountmigrationview.ui:129
+msgid "Migrate account"
+msgstr "Ενοποίηση λογαριασμού"
+
+#: ui/accountmigrationview.ui:148
+msgid "Migration failed, wrong password ?"
+msgstr "Η ενοποίηση απέτυχε, λανθασμένο συνθηματικό;"
+
+#: ui/currentcallview.ui:251
+msgid "End this call"
+msgstr "Τερματισμός αυτής της κλήσης"
+
+#: ui/currentcallview.ui:255 ui/currentcallview.ui:457
+msgid "End call"
+msgstr "Τερματισμός κλήσης"
+
+#: ui/currentcallview.ui:275
+msgid "Toggle hold"
+msgstr "Εναλλαγή αναμονής"
+
+#: ui/currentcallview.ui:279 ui/currentcallview.ui:304
+#: ui/currentcallview.ui:448
+msgid "Hold"
+msgstr "Αναμονή"
+
+#: ui/currentcallview.ui:300
+msgid "Toggle mute audio"
+msgstr "Εναλλαγή σίγασης ήχου"
+
+#: ui/currentcallview.ui:325
+msgid "Toggle mute video"
+msgstr "Εναλλαγή σίγασης βίντεο"
+
+#: ui/currentcallview.ui:329 ui/currentcallview.ui:439
+msgid "Mute video"
+msgstr "Σίγαση βίντεο"
+
+#: ui/currentcallview.ui:352
+msgid "Toggle record audio"
+msgstr "Εναλλαγή εγγραφής ήχου"
+
+#: ui/currentcallview.ui:355
+msgid "Record audio"
+msgstr "Εγγραφή ήχου"
+
+#: ui/currentcallview.ui:376
+msgid "Adjust outgoing video quality"
+msgstr "Προσαρμογή εξεχόμενης ποιότητας βίντεο"
+
+#: ui/currentcallview.ui:381 ui/currentcallview.ui:466
+msgid "Video quality"
+msgstr "Ποιότητα βίντεο"
+
+#: ui/currentcallview.ui:400
+msgid "Toggle show chat"
+msgstr "Εναλλαγή εμφάνισης συνομιλίας"
+
+#: ui/currentcallview.ui:404 ui/currentcallview.ui:421
+msgid "Chat"
+msgstr "Συνομιλία"
+
+#: ui/currentcallview.ui:430
+msgid "Mute audio"
+msgstr "Σίγαση ήχου"
+
+#: ui/currentcallview.ui:475
+msgid "Record"
+msgstr "Εγγραφή"
+
+#: ui/accountdevicestab.ui:21
+msgid "My Device ID:"
+msgstr "Το ID της συσκευής μου:"
+
+#: ui/accountdevicestab.ui:40
+msgid "Devices"
+msgstr "Συσκευές"
+
+#: ui/accountdevicestab.ui:66
+msgid "Add device"
+msgstr "Προσθήκη συσκευής"
+
+#: ui/accountdevicestab.ui:83
+msgid "Add New Device"
+msgstr "Προσθήκη νέας συσκευής"
+
+#: ui/accountdevicestab.ui:98
+msgid ""
+"To add a new device to your Ring account, you export your account on the "
+"Ring. This will generate a pin that must be entered on your new device "
+"within 5 minutes of its generation."
+msgstr "Για προσθήκη νέας συσκευής στον Ring λογαριασμό σας, μπορείτε να εξάγετε τον λογαριασμό σας στο Ring. Αυτό θα δημιουργήσει ένα PIN το οποίο πρέπει να εισάγετε στην νέα σας συσκευή μέσα σε 5 λεπτά από την δημιουργία του."
+
+#: ui/accountdevicestab.ui:107 ui/accountimportexportview.ui:111
+msgid "Password (required):"
+msgstr "Συνθηματικό (απαιτείται)"
+
+#: ui/accountdevicestab.ui:118 ui/accountimportexportview.ui:126
+msgid "Enter archive password"
+msgstr "Εισαγωγή συνθηματικού αρχειοθέτησης"
+
+#: ui/accountdevicestab.ui:135 ui/accountcreationwizard.ui:84
+#: ui/accountimportexportview.ui:161 src/accountimportexportview.cpp:102
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ui/accountdevicestab.ui:141
+msgid "Export on the Ring"
+msgstr "Εξαγωγή στο Ring"
+
+#: ui/accountdevicestab.ui:162
+msgid "Exporting account on the Ring..."
+msgstr "Εξαγωγή λογαριασμού στο Ring..."
+
+#: ui/accountdevicestab.ui:186
+msgid "Your generated pin:"
+msgstr "Το δημιουργημένο σας PIN:"
+
+#: ui/accountdevicestab.ui:217 ui/accountdevicestab.ui:239
+#: ui/accountcreationwizard.ui:551
+msgid "OK"
+msgstr "OK"
+
+#: ui/accountcreationwizard.ui:34
+msgid "Welcome to"
+msgstr ""
+
+#: ui/accountcreationwizard.ui:68
+msgid "Create Ring Account"
+msgstr "Δημιουργία λογαριασμού Ring"
+
+#: ui/accountcreationwizard.ui:69
+msgid "Create a new Ring account (for new users)"
+msgstr "Δημιουργία ενός νέου λογαριασμού Ring (για νέους χρήστες)"
+
+#: ui/accountcreationwizard.ui:76
+msgid "Link this device to an account"
+msgstr "Σύνδεση αυτής της συσκευής με ένα λογαριασμό"
+
+#: ui/accountcreationwizard.ui:77
+msgid "Link this devices to a Ring account created on another device"
+msgstr "Σύνδεση αυτών των συσκευών σε ένα λογαριασμό Ring που δημιουργήθηκε σε άλλη συσκευή"
+
+#: ui/accountcreationwizard.ui:105
+msgid "Link this device to an existing account"
+msgstr "Σύνδεση αυτής της συσκευής σε έναν λογαριασμό που ήδη υπάρχει"
+
+#: ui/accountcreationwizard.ui:120
+msgid ""
+"To link this device to another account, you have two possibilities. You can "
+"import your account from the DHT, but first, you need to obtain a PIN code. "
+"To generate the PIN code, go to the account management setting of a previous"
+" device, choose the Ring Account to use and select \"Link another device to "
+"this account\". You will get the necessary PIN to complete this form. The "
+"PIN is only valid for 10 minutes. Or, you can directly import your account "
+"from an archive."
+msgstr ""
+
+#: ui/accountcreationwizard.ui:146
+msgid "Enter your pin:"
+msgstr "Εισάγετε το PIN σας:"
+
+#: ui/accountcreationwizard.ui:174
+msgid "Or import a file:"
+msgstr ""
+
+#: ui/accountcreationwizard.ui:193
+msgid "Enter your password:"
+msgstr "Εισάγετε το συνθηματικό:"
+
+#: ui/accountcreationwizard.ui:217 ui/accountcreationwizard.ui:429
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: ui/accountcreationwizard.ui:225 ui/accountcreationwizard.ui:437
+msgid "Next"
+msgstr "Επόμενο"
+
+#: ui/accountcreationwizard.ui:267
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: ui/accountcreationwizard.ui:287
+msgid "Full name:"
+msgstr "Πλήρες όνομα:"
+
+#: ui/accountcreationwizard.ui:329
+msgid "Ring Account"
+msgstr "Λογαριασμός Ring"
+
+#: ui/accountcreationwizard.ui:342
+msgid "Register public username (experimental):"
+msgstr "Δημόσια καταχώρηση ονόματος χρήστη (πειραματικό):"
+
+#: ui/accountcreationwizard.ui:348
+msgid ""
+"By checking this, you will register a unique username on the Ring network. "
+"People can use it to contact you instead of using your RingID, which is 40 "
+"characters long."
+msgstr "Επιλέγοντας αυτό, θα καταχωρήσετε ένα μοναδικό όνομα χρήστη στο δίκτυο του Ring. Οι άνθρωποι θα μπορούν να το χρησιμοποιήσουν για να έρθουν σε επαφή μαζί σας, αντί να χρησιμοποιήσουν το RingID, που έχει μήκος 40 χαρακτήρων."
+
+#: ui/accountcreationwizard.ui:371
+msgid "Password (confirm):"
+msgstr "Συνθηματικό (επιβεβαίωση):"
+
+#: ui/accountcreationwizard.ui:372
+msgid ""
+"This password will be used to encrypt your account data and to link new "
+"devices to your account."
+msgstr "Αυτό το συνθηματικό θα χρησιμοποιηθεί για να κρυπτογραφήσει τα δεδομένα του λογαριασμού σας και να συνδέσει νέες συσκευές στο λογαριασμό σας."
+
+#: ui/accountcreationwizard.ui:461
+msgid "Generating your Ring account..."
+msgstr "Γίνεται δημιουργία του λογαριασμού σας Ring..."
+
+#: ui/accountcreationwizard.ui:487 src/usernameregistrationbox.cpp:310
+msgid "Registering username..."
+msgstr "Καταχώρηση ονόματος χρήστη..."
+
+#: ui/accountcreationwizard.ui:494
+msgid "This may take a few minutes."
+msgstr "Αυτό μπορεί να διαρκέσει λίγα λεπτά."
+
+#: ui/accountcreationwizard.ui:520
+msgid "Retrieving your Ring account..."
+msgstr "Ανάκτηση του Ring λογαριασμού σας..."
+
+#: ui/accountcreationwizard.ui:546
+msgid "Error creating/loading account."
+msgstr "Σφάλμα δημιουργίας/φόρτωσης λογαριασμού."
+
+#: ui/generalsettingsview.ui:34
+msgid "Profile Settings"
+msgstr "Ρυθμίσεις προφίλ"
+
+#: ui/generalsettingsview.ui:76
+msgid "Ring Settings"
+msgstr "Ρυθμίσεις Ring"
+
+#: ui/generalsettingsview.ui:92
+msgid "Start Ring on login"
+msgstr "Έναρξη Ring κατά την σύνδεση"
+
+#: ui/generalsettingsview.ui:100
+msgid "Show Ring icon in the notification area (systray)."
+msgstr "Εμφάνιση εικονιδίου Ring στην περιοχή ειδοποιήσεων (δίσκος συστήματος)"
+
+#: ui/generalsettingsview.ui:108
+msgid "Bring Ring to the foreground on incoming calls."
+msgstr "Μεταφορά του Ring στο προσκήνιο, κατά τις εισερχόμενες κλήσεις."
+
+#: ui/generalsettingsview.ui:116
+msgid "Enable notifications for incoming calls."
+msgstr "Ενεργοποίηση ειδοποιήσεων για εισερχόμενες κλήσεις."
+
+#: ui/generalsettingsview.ui:124
+msgid "Enable notifications for new chat messages."
+msgstr "Ενεργοποίηση ειδοποιήσεων για νέα μηνύματα συνομιλιών."
+
+#: ui/generalsettingsview.ui:132
+msgid "Show images and videos in chat window."
+msgstr ""
+
+#: ui/generalsettingsview.ui:140
+msgid "Entering a number in the search entry will place a new call."
+msgstr "Η εισαγωγή αριθμού στην γραμμή αναζήτησης θα ξεκινήσει νέα κλήση."
+
+#: ui/generalsettingsview.ui:155
+msgid "Show chat on the right."
+msgstr "Εμφάνιση συνομιλίας στα δεξιά."
+
+#: ui/generalsettingsview.ui:161
+msgid "Show chat on the bottom."
+msgstr "Εμφάνιση συνομιλίας κάτω."
+
+#: ui/generalsettingsview.ui:185
+msgid "History Settings"
+msgstr "Ρυθμίσεις ιστορικού"
+
+#: ui/generalsettingsview.ui:203
+msgid "Keep history for (days):"
+msgstr "Διατήρηση ιστορικού για (ημέρες):"
+
+#: ui/generalsettingsview.ui:224
+msgid "(set to 0 for unlimited history)"
+msgstr "(ορίστε σε 0 για ιστορικό χωρίς όριο)"
+
+#: ui/generalsettingsview.ui:234
+msgid "Clear all history"
+msgstr "Καθαρισμός όλου του ιστορικού"
+
+#: ui/ringmainwindow.ui:61
+msgid "Menu"
+msgstr "Μενού"
+
+#: ui/ringmainwindow.ui:83
+msgid "General"
+msgstr "Γενικά"
+
+#: ui/ringmainwindow.ui:98
+msgid "Media"
+msgstr "Μέσα"
+
+#: ui/ringmainwindow.ui:114
+msgid "Accounts"
+msgstr "Λογαριασμοί"
+
+#: ui/ringmainwindow.ui:157
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: ui/ringmainwindow.ui:267 ui/ringmainwindow.ui:274
+msgid "Conversations"
+msgstr "Συνομιλίες"
+
+#: ui/ringmainwindow.ui:300 ui/ringmainwindow.ui:307
+msgid "Contact requests"
+msgstr "Αιτήματα επαφών"
+
+#: ui/mediasettingsview.ui:24
+msgid "Audio Settings"
+msgstr "Ρυθμίσεις ήχου"
+
+#: ui/mediasettingsview.ui:40
+msgid "Audio manager:"
+msgstr "Διαχειριστής ήχου:"
+
+#: ui/mediasettingsview.ui:52
+msgid "Ringtone device:"
+msgstr "Συσκευή Ringtone:"
+
+#: ui/mediasettingsview.ui:64
+msgid "Output device:"
+msgstr "Συσκευή εξόδου:"
+
+#: ui/mediasettingsview.ui:76
+msgid "Input device:"
+msgstr "Συσκευή εισόδου:"
+
+#: ui/mediasettingsview.ui:134
+msgid "Camera Settings"
+msgstr "Ρυθμίσεις κάμερας"
+
+#: ui/mediasettingsview.ui:150
+msgid "Device:"
+msgstr "Συσκευή:"
+
+#: ui/mediasettingsview.ui:162
+msgid "Channel:"
+msgstr "Κανάλι:"
+
+#: ui/mediasettingsview.ui:174
+msgid "Resolution:"
+msgstr "Ανάλυση:"
+
+#: ui/mediasettingsview.ui:186
+msgid "Frame rate:"
+msgstr "Ρυθμός καρέ:"
+
+#: ui/mediasettingsview.ui:244
+msgid "Hardware Acceleration"
+msgstr ""
+
+#: ui/mediasettingsview.ui:260
+msgid "Enable hardware decoding:"
+msgstr ""
+
+#: ui/accountimportexportview.ui:14
+msgid "Export selected account"
+msgstr "Εξαγωγή επιλεγμένου λογαριασμού"
+
+#: ui/accountimportexportview.ui:26
+msgid "Import accounts"
+msgstr "Εισαγωγή λογαριασμών"
+
+#: ui/accountimportexportview.ui:49
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+#: ui/accountimportexportview.ui:70
+msgid "choose location"
+msgstr "επιλογή τοποθεσίας"
+
+#: ui/accountimportexportview.ui:76
+msgid "Choose export location"
+msgstr "Επιλογή τοποθεσίας εξαγωγής"
+
+#: ui/accountimportexportview.ui:95
+msgid "Choose archive location"
+msgstr "Επιλογή τοποθεσίας αρχειοθέτησης"
+
+#: ui/accountimportexportview.ui:169 ui/accountview.ui:110
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: ui/accountimportexportview.ui:181 ui/accountview.ui:103
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: ui/accountview.ui:42 ui/accountview.ui:45
+msgid "Remove selected account"
+msgstr "Αφαίρεση επιλεγμένου λογαριασμού"
+
+#: ui/accountview.ui:63 ui/accountview.ui:66
+msgid "Add new account"
+msgstr "Προσθήκη νέου λογαριασμού"
+
+#: ui/accountview.ui:75 ui/accountview.ui:78
+msgid "Select account type"
+msgstr "Επιλογή τύπου λογαριασμού"
+
+#: ui/accountview.ui:104
+msgid "Import archived account(s)"
+msgstr "Εισαγωγή αρχειοθετημένου λογαριασμού(ών)"
+
+#: ui/accountview.ui:112
+msgid "Export selected account(s)"
+msgstr "Εξαγωγή επιλεγμένου λογαριασμού(ών)"
+
+#: ui/editcontactview.ui:12
+msgid "Select addressbook"
+msgstr "Επιλογή βιβλίου διευθύνσεων"
+
+#: ui/editcontactview.ui:15
+msgid "Addressbook"
+msgstr "Βιβλίο διευθύνσεων"
+
+#: ui/editcontactview.ui:29
+msgid "Name"
+msgstr "Όνομα"
+
+#: ui/editcontactview.ui:32
+msgid "Contact name"
+msgstr "Όνομα επαφής"
+
+#: ui/editcontactview.ui:47
+msgid "Select how this number will be categorized"
+msgstr "Επιλέξτε πως θα κατηγοριοποιείται αυτός ο αριθμός"
+
+#: ui/editcontactview.ui:50
+msgid "Number category"
+msgstr "Κατηγορία αριθμού"
+
+#: ui/editcontactview.ui:66
+msgid "Number or Ring ID to be added"
+msgstr "Αριθμός ή RingID που θα προστεθεί"
+
+#: ui/editcontactview.ui:72
+msgid "Number or Ring ID"
+msgstr "Αριθμός ή RingID"
+
+#: ui/editcontactview.ui:83
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: ui/accountvideotab.ui:50
+msgid "Enable Video"
+msgstr "Ενεργοποίση βίνταο"
+
+#: ui/accountvideotab.ui:80 ui/accountaudiotab.ui:57
+msgid "Up"
+msgstr "Πάνω"
+
+#: ui/accountvideotab.ui:87 ui/accountaudiotab.ui:64
+msgid "Down"
+msgstr "Κάτω"
+
+#: ui/accountvideotab.ui:98
+msgid "Video Codecs"
+msgstr "Κωδικοποιητές βίντεο"
+
+#: ui/accountadvancedtab.ui:81
+msgid "Registration expire timeout (seconds):"
+msgstr "Χρονική λήξη καταχώρησης (δευτερόλεπτα):"
+
+#: ui/accountadvancedtab.ui:103
+msgid "Allow calls from unknown peers"
+msgstr "Να επιτρέπονται κλήσεις από άγνωστους κόμβους"
+
+#: ui/accountadvancedtab.ui:117
+msgid "Allow calls from peers in your call history"
+msgstr "Να επιτρέπονται κλήσεις από κόμβους στο ιστορικό κλήσεων"
+
+#: ui/accountadvancedtab.ui:131
+msgid "Allow calls from peers in your contacts list"
+msgstr "Να επιτρέπονται κλήσεις από κόμβους στην λίστα επαφών"
+
+#: ui/accountadvancedtab.ui:149
+msgid "Registration"
+msgstr "Καταχώρηση"
+
+#: ui/accountadvancedtab.ui:178
+msgid "Use random port"
+msgstr "Χρήση τυχαίας θύρας"
+
+#: ui/accountadvancedtab.ui:199
+msgid "Local port:"
+msgstr "Τοπική θύρα:"
+
+#: ui/accountadvancedtab.ui:225
+msgid "Network Interface"
+msgstr "Διεπαφή δικτύου"
+
+#: ui/accountadvancedtab.ui:253
+msgid "Same as local parameters"
+msgstr "Τα ίδια ως τοπικοί παράμετροι"
+
+#: ui/accountadvancedtab.ui:268
+msgid "Set published address and port:"
+msgstr "Καθορισμός δημοσιευμένης διεύθυνσης και θύρας:"
+
+#: ui/accountadvancedtab.ui:292
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: ui/accountadvancedtab.ui:314 src/accountadvancedtab.cpp:510
+msgid "Port"
+msgstr "Θύρα"
+
+#: ui/accountadvancedtab.ui:340
+msgid "Use STUN"
+msgstr "Χρήση STUN"
+
+#: ui/accountadvancedtab.ui:363 ui/accountadvancedtab.ui:412
+msgid "server URL"
+msgstr "URL διακομιστή"
+
+#: ui/accountadvancedtab.ui:389
+msgid "Use TURN"
+msgstr "Χρήση TURN"
+
+#: ui/accountadvancedtab.ui:434
+msgid "username"
+msgstr "όνομα χρήστη"
+
+#: ui/accountadvancedtab.ui:455
+msgid "password"
+msgstr "συνθηματικό"
+
+#: ui/accountadvancedtab.ui:479
+msgid "realm"
+msgstr "realm"
+
+#: ui/accountadvancedtab.ui:508
+msgid "Published Address"
+msgstr "Δημοσιευμένη διεύθυνση"
+
+#: ui/accountadvancedtab.ui:536
+msgid "Bootstrap Servers"
+msgstr "Bootstrap Servers"
+
+#: ui/accountadvancedtab.ui:593
+msgid ""
+"These settings are only used during SDP session negotiation in case ICE is "
+"not supported by the server or peer."
+msgstr "Αυτές οι ρυθμίσεις χρησιμοποιούνται μόνο κατά την διαπραγμάτευση της συνεδρία SDP, σε περίπτωση που το ICE δεν υποστηρίζεται από τον διακομιστή ή τον κόμβο."
+
+#: ui/accountadvancedtab.ui:618 ui/accountadvancedtab.ui:694
+msgid "Min"
+msgstr "Ελάχιστο"
+
+#: ui/accountadvancedtab.ui:641 ui/accountadvancedtab.ui:717
+msgid "Max"
+msgstr "Μέγιστο"
+
+#: ui/accountadvancedtab.ui:665
+msgid "Audio RTP Port Range"
+msgstr "Εύρος θυρών RTP ήχου"
+
+#: ui/accountadvancedtab.ui:741
+msgid "Video RTP Port Range"
+msgstr "Εύρος θυρών RTP βίντεο"
+
+#: ui/accountadvancedtab.ui:759
+msgid "SDP Session Negotiation (ICE Fallback)"
+msgstr "Διαπραγμάτευση συνεδρίας SDP (εφεδρικό του ICE)"
+
+#: ui/accountaudiotab.ui:75
+msgid "Audio Codecs"
+msgstr "Κωδικοποιητές ήχου"
+
+#: ui/usernameregistrationbox.ui:12
+msgid "enter username here"
+msgstr "εισάγετε το όνομα χρήστη εδώ"
+
+#: ui/usernameregistrationbox.ui:24
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: ui/accountbanstab.ui:18
+msgid "List of banned peers :"
+msgstr ""
+
+#: ui/accountbanstab.ui:62
+msgid "unban"
+msgstr ""
+
+#: ui/chatview.ui:19 ui/chatview.ui:22
+msgid "Hide chat view"
+msgstr "Απόκρυψη προβολής συνομιλίας"
+
+#: ui/chatview.ui:45 ui/chatview.ui:48
+msgid "Place call"
+msgstr "Έναρξη κλήσης"
+
+#: ui/chatview.ui:62
+msgid "Place audio-only call"
+msgstr ""
+
+#: ui/chatview.ui:75
+msgid "Add to conversations"
+msgstr ""
+
+#: ui/chatview.ui:134
+msgid "Send Invitation"
+msgstr ""
+
+#: ui/accountgeneraltab.ui:69
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: ui/accountgeneraltab.ui:135
+msgid "Parameters"
+msgstr "Παράμετροι"
+
+#: ui/accountgeneraltab.ui:159 ui/accountgeneraltab.ui:245
+#: src/accountgeneraltab.cpp:183 src/accountgeneraltab.cpp:208
+msgid "Change password"
+msgstr ""
+
+#: ui/accountgeneraltab.ui:175
+msgid "Note: this will change the password only on this device."
+msgstr ""
+
+#: ui/accountgeneraltab.ui:194
+msgid "Current password"
+msgstr ""
+
+#: ui/accountgeneraltab.ui:214
+msgid "New password"
+msgstr "Νέο συνθηματικό"
+
+#: ui/accountgeneraltab.ui:234
+msgid "Confirm password"
+msgstr ""
+
+#: ui/incomingcallview.ui:99
+msgid "Incoming..."
+msgstr "Εισερχόμενη..."
+
+#: ui/incomingcallview.ui:135
+msgid "Accept"
+msgstr "Αποδοχή"
+
+#: ui/incomingcallview.ui:156
+msgid "Reject"
+msgstr ""
+
+#: ui/accountsecuritytab.ui:37
+msgid "Encrypt media streams (SRTP)"
+msgstr "Κρυπτογράφηση ροών μέσων (SRTP)"
+
+#: ui/accountsecuritytab.ui:58
+msgid "Key exchange protocol"
+msgstr "Πρωτόκολο ανταλαγής κλειδιών"
+
+#: ui/accountsecuritytab.ui:76
+msgid "Fallback on RTP on encryption failure"
+msgstr "Εφεδρεία RTP, σε αποτυχία κρυπτογράφησης"
+
+#: ui/accountsecuritytab.ui:94
+msgid "Media Stream Encryption"
+msgstr "Κρυπτογράφηση ροής μέσου"
+
+#: ui/accountsecuritytab.ui:123
+msgid "Encrypt negotiation (TLS)"
+msgstr "Κρυπτογράφηση διαπραγμάτευσης (TLS)"
+
+#: ui/accountsecuritytab.ui:148
+msgid "CA certificate"
+msgstr "Πιστοποιητικό CA"
+
+#: ui/accountsecuritytab.ui:185
+msgid "User certificate"
+msgstr "Πιστοποιητικό χρήστη"
+
+#: ui/accountsecuritytab.ui:222
+msgid "Private key"
+msgstr "Ιδιωτικό κλειδί"
+
+#: ui/accountsecuritytab.ui:245
+msgid "Private key password"
+msgstr "Συνθηματικό ιδιωτικού κλειδιού"
+
+#: ui/accountsecuritytab.ui:292
+msgid "TLS protocol method"
+msgstr "Μέθοδος προτοκόλου TLS"
+
+#: ui/accountsecuritytab.ui:315
+msgid "Outgoing TLS server name"
+msgstr "Εξερχόμενο όνομα διακομιστή TLS"
+
+#: ui/accountsecuritytab.ui:337
+msgid "Negotiation timeout (seconds)"
+msgstr "Χρονική λήξη διαπραγματευσης (δευτερόλεπτα)"
+
+#: ui/accountsecuritytab.ui:371
+msgid "Use default ciphers"
+msgstr "Χρήση προκαθορισμένων αλγόριθμων κρυπτογράφησης"
+
+#: ui/accountsecuritytab.ui:387
+msgid "Use custom cipher list"
+msgstr "Χρήση προσαρμοσμένης λίστας αλγόριθμων κρυπτογράφησης"
+
+#: ui/accountsecuritytab.ui:444
+msgid "Verify incoming certificates (server side)"
+msgstr "Επαλήθευση εισερχόμενων πιστοποιητικών (πλευρά διακομιστή)"
+
+#: ui/accountsecuritytab.ui:459
+msgid "Verify answer certificates (client side)"
+msgstr "Επαλήθευση πιστοποιητικών απάντησης (πλευρά πελάτη)"
+
+#: ui/accountsecuritytab.ui:474
+msgid "Require a certificate for incoming TLS connections"
+msgstr "Απαίτηση πιστοποιητικού για εισερχόμενες συνδέσεις TLS"
+
+#: ui/accountsecuritytab.ui:493
+msgid "Negotiation Encryption"
+msgstr "Κρυπτογράφηση διαπραγμάτευσης"
+
+#: ui/avatarmanipulation.ui:92 ui/avatarmanipulation.ui:125
+msgid "Take photo"
+msgstr "Λήψη φωτογραφίας"
+
+#: ui/avatarmanipulation.ui:102
+msgid "Choose image from file"
+msgstr "Επιλογή εικόνας από αρχείο"
+
+#: ui/avatarmanipulation.ui:135 ui/avatarmanipulation.ui:168
+msgid "Return"
+msgstr "Επιστροφή"
+
+#: ui/avatarmanipulation.ui:158
+msgid "Set selection as image"
+msgstr "Καθορισμός επιλογής ως εικόνας"
+
+#: src/ring_client.cpp:144
+#, c-format
+msgid ""
+"Unable to initialize.\n"
+"Make sure the Ring daemon (dring) is running.\n"
+"Error: %s"
+msgstr ""
+
+#: src/ring_client.cpp:147
+msgid "Ring Error"
+msgstr "Σφάλμα Ring"
+
+#: src/ring_client.cpp:289
+msgctxt ""
+"In the status icon menu, toggle action to show or hide the Ring main window"
+msgid "Show Ring"
+msgstr ""
+
+#: src/ring_client.cpp:293
+msgid "Quit"
+msgstr ""
+
+#: src/ringnotify.cpp:156
+msgid "Incoming call"
+msgstr "Εισερχόμενη κλήση"
+
+#: src/ringnotify.cpp:173 src/ringnotify.cpp:351
+msgctxt "notification action name"
+msgid "Show"
+msgstr "Προβολή"
+
+#: src/ringnotify.cpp:275
+#, c-format
+msgctxt "Text message notification"
+msgid "%s says:"
+msgstr "Ο %s λέει:"
+
+#: src/accountimportexportview.cpp:99
+msgid "Select account export location"
+msgstr "Επιλογή τοποθεσίας εξαγωγής λογαριασμού"
+
+#: src/accountimportexportview.cpp:104
+msgid "Select"
+msgstr "Επιλογή"
+
+#: src/accountimportexportview.cpp:197
+msgid "Error importing account(s)"
+msgstr "Σφάλμα κατά την εισαγωγή λογαριασμού(ών)"
+
+#: src/accountimportexportview.cpp:244
+msgid "Error exporting account(s)"
+msgstr "Σφάλμα κατά την εξαγωγή λογαριασμού(ών)"
+
+#: src/usernameregistrationbox.cpp:128
+msgid "The entered username is not available"
+msgstr "Το εισηγμένο όνομα χρήστη δεν είναι διαθέσιμο"
+
+#: src/usernameregistrationbox.cpp:129
+msgid "Username is not available"
+msgstr "Το όνομα χρήστη δεν είναι διαθέσιμο"
+
+#: src/usernameregistrationbox.cpp:138
+msgid "The entered username is not valid"
+msgstr "Το πληκτρολογημένο όνομα χρήστη δεν είναι έγκυρο"
+
+#: src/usernameregistrationbox.cpp:139
+msgid "Username is not valid"
+msgstr "Το όνομα χρήστη δεν είναι έγκυρο"
+
+#: src/usernameregistrationbox.cpp:148
+msgid "The entered username is available"
+msgstr "Το εισηγμένο όνομα χρήστη δεν είναι διαθέσιμο"
+
+#: src/usernameregistrationbox.cpp:149
+msgid "Username is available"
+msgstr "Το όνομα χρήστη είναι διαθέσιμο"
+
+#: src/usernameregistrationbox.cpp:158
+msgid "Failed to perform lookup"
+msgstr "Αποτυχία στην διενέργεια αναζήτησης"
+
+#: src/usernameregistrationbox.cpp:159
+msgid "Could not lookup username"
+msgstr "Δεν μπόρεσε να αναζητηθεί το όνομα χρήστη"
+
+#: src/usernameregistrationbox.cpp:248
+msgid "Looking up username availability..."
+msgstr "Έρευνα για διαθεσιμότητα ονόματος χρήστη..."
+
+#: src/usernameregistrationbox.cpp:319
+msgid "Could not initiate name registration, try again."
+msgstr "Δεν μπόρεσε να αρχικοποιηθεί η καταχώρηση ονόματος, δοκιμάστε ξανά."
+
+#: src/usernameregistrationbox.cpp:361
+msgid "Register this username on the blockchain"
+msgstr "Καταχώρηση αυτού του ονόματος χρήστη στο blockchain"
+
+#: src/usernameregistrationbox.cpp:397
+msgid "Invalid username"
+msgstr "Μη έγκυρο όνομα χρήστη"
+
+#: src/usernameregistrationbox.cpp:404 src/accountdevicestab.cpp:195
+msgid "Bad password"
+msgstr "Λανθασμένο συνθηματικό"
+
+#: src/usernameregistrationbox.cpp:411
+msgid "Username already taken"
+msgstr "Το όνομα χρήστη ήδη χρησιμοποιείται"
+
+#: src/usernameregistrationbox.cpp:418
+msgid "Network error"
+msgstr "Σφάλμα δικτύου"
+
+#: src/generalsettingsview.cpp:103
+msgid ""
+"This is a destructive operation. Are you sure you want to delete all of your"
+" chat and call history?"
+msgstr "Αυτή είναι μια καταστροφική λειτουργία. Είστε σίγουροι ότι θέλετε να διαγράψετε όλες τις συζήτησης σας και το ιστορικό κλήσεων;"
+
+#: src/backends/edscontactbackend.cpp:193
+msgid "Unknown EDS addressbook"
+msgstr "Άγνωστο βιβλίο διευθύνσεων EDS"
+
+#: src/backends/edscontactbackend.cpp:213
+msgctxt "Backend type"
+msgid "Contacts"
+msgstr "Επαφές"
+
+#: src/accountadvancedtab.cpp:389
+msgid "_Remove server"
+msgstr "_Απομάκρυνση διακομιστή"
+
+#: src/accountadvancedtab.cpp:502 src/accountgeneraltab.cpp:302
+msgid "Hostname"
+msgstr "Hostname"
+
+#: src/accountgeneraltab.cpp:196
+msgid "New password and its confirmation are different"
+msgstr ""
+
+#: src/accountgeneraltab.cpp:206
+msgid "Password changed!"
+msgstr ""
+
+#: src/accountgeneraltab.cpp:209
+msgid "Incorrect password"
+msgstr ""
+
+#: src/accountgeneraltab.cpp:236
+msgid "Alias"
+msgstr "Ψευδώνυμο"
+
+#: src/accountgeneraltab.cpp:247
+msgid "Type"
+msgstr "Τύπος"
+
+#: src/accountgeneraltab.cpp:273
+msgid "auto-generating..."
+msgstr "αυτόματη-παραγωγή..."
+
+#: src/accountgeneraltab.cpp:286 src/accountgeneraltab.cpp:312
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: src/accountgeneraltab.cpp:322
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: src/accountgeneraltab.cpp:335
+msgid "Show password"
+msgstr "Εμφάνιση συνθηματικού"
+
+#: src/accountgeneraltab.cpp:341
+msgid "Proxy"
+msgstr "Διαμεσολαβητής"
+
+#: src/accountgeneraltab.cpp:351
+msgid "Voicemail number"
+msgstr "Αριθμός Voicemail"
+
+#: src/accountgeneraltab.cpp:363
+msgid "Name service URL"
+msgstr "URL υπηρεσίας ονομάτων"
+
+#: src/accountgeneraltab.cpp:376
+msgid "Auto-answer calls"
+msgstr "Αυτόματη απάντηση κλήσεων"
+
+#: src/accountgeneraltab.cpp:384
+msgid "UPnP enabled"
+msgstr "UPnP ενεργοποιημένο"
+
+#: src/video/video_widget.cpp:538
+msgid "Share screen area"
+msgstr "Μοίρασμα περιοχής της οθόνης"
+
+#: src/video/video_widget.cpp:549
+msgid "Share file"
+msgstr "Μοίρασμα αρχείου"
+
+#: src/video/video_widget.cpp:562
+msgid "Show advanced information"
+msgstr "Εμφάνιση προχωρημένων πληροφοριών"
+
+#: src/avatarmanipulation.cpp:380
+msgid "Open Avatar Image"
+msgstr "Άνοιγμα εικόνας avatar"
+
+#: src/avatarmanipulation.cpp:383
+msgid "_Cancel"
+msgstr "Άκυρο"
+
+#: src/avatarmanipulation.cpp:385
+msgid "_Open"
+msgstr "Άνοιγμα"
+
+#: src/dialogs.c:53
+msgid "Working..."
+msgstr "Γίνεται εργασία..."
+
+#: src/dialogs.c:84
+#, c-format
+msgctxt "Do not translate the release name nor the status (beta, final, ...)"
+msgid ""
+"\"In varietate concordia\"\n"
+"built on %.25s"
+msgstr ""
+
+#: src/dialogs.c:134
+msgid ""
+"The GNOME client for Ring.\n"
+"Ring is free software for universal communication which respects the freedoms and privacy of its users."
+msgstr "Ο GNOME πελάτης για το Ring.\nRing είναι ελεύθερο λογισμικό για την καθολική επικοινωνία που σέβεται τις ελευθερίες και την ιδιωτική ζωή των χρηστών του."
+
+#: src/accountdevicestab.cpp:201
+msgid "Network error, try again"
+msgstr "Σφάλμα δικτύου, δοκιμάστε ξανά"
+
+#: src/accountdevicestab.cpp:213
+msgid "Could not initiate export to the Ring, try again"
+msgstr "Δεν μπορεί να κινήσει την εξαγωγή προς το Ring, προσπαθήστε ξανά"
+
+#: src/accountdevicestab.cpp:246
+msgctxt "Device Name Column"
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/accountdevicestab.cpp:251
+msgctxt "Device ID Column"
+msgid "ID"
+msgstr "ID"
+
+#: src/ringmainwindow.cpp:495
+msgctxt "button next to search entry will place a new call"
+msgid "place call"
+msgstr "έναρξη κλήσης"
+
+#: src/ringmainwindow.cpp:498
+msgctxt "button next to search entry will open chat"
+msgid "open chat"
+msgstr "άνοιγμα συνομιλίας"
+
+#: src/ringmainwindow.cpp:745
+msgctxt ""
+"Please try to make the translation 50 chars or less so that it fits into the"
+" layout"
+msgid "Search contacts or enter number"
+msgstr "Αναζήτηση επαφών ή εισαγωγή αριθμού"
+
+#: src/editcontactview.cpp:208
+msgctxt "Phone number category"
+msgid "home"
+msgstr "σπίτι"
+
+#: src/accountvideotab.cpp:184 src/accountaudiotab.cpp:175
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: src/accountvideotab.cpp:190
+msgctxt "The name of the codec"
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/accountvideotab.cpp:194 src/accountaudiotab.cpp:185
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#: src/native/dbuserrorhandler.cpp:36 src/native/dbuserrorhandler.cpp:95
+msgctxt "Name of error window (dialog)"
+msgid "Ring Error"
+msgstr "Σφάλμα Ring"
+
+#: src/native/dbuserrorhandler.cpp:57
+msgid "Trying to reconnect to the Ring daemon (dring)..."
+msgstr "Προσπάθεια για επανασύνδεση στον δαίμονα του Ring (dring)..."
+
+#: src/native/dbuserrorhandler.cpp:87
+msgid ""
+"Could not re-connect to the Ring daemon (dring).\n"
+"Ring will now quit."
+msgstr "Δεν μπόρεσε να γίνει επανασύνδεση στον δαίμονα του Ring (dring).\nΤο ring τώρα θα τερματιστεί."
+
+#: src/accountaudiotab.cpp:181
+msgctxt "Name of the codec"
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/accountaudiotab.cpp:189
+msgid "Samplerate"
+msgstr "Ρυθμός δειγματοληψίας"
+
+#: src/conversationpopupmenu.cpp:169
+msgid "_Place call"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:172
+msgid "_Copy name"
+msgstr "Αντιγραφή ονόματος"
+
+#: src/conversationpopupmenu.cpp:178
+msgid "_Add to conversations"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:182
+msgid "_Discard invitation"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:185
+msgid "_Block invitations"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:190
+msgid "C_lear history"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:193
+msgid "_Remove conversation"
+msgstr ""
+
+#: src/conversationpopupmenu.cpp:196
+msgid "_Block contact"
+msgstr ""
+
+#: src/ring_client_options.c:66
+msgid "Enable debug"
+msgstr "Ενεργοποίηση αποσφαλμάτωσης"
+
+#: src/ring_client_options.c:68
+msgid ""
+"Restores the hidden state of the main window (only applicable to the primary"
+" instance)"
+msgstr "Επαναφέρει την κρυμένη κατάσταση του κύριου παραθύρου (εφαρμόζεται μόνο στο πρωταρχικό περιστατικό)"
+
+#: src/ring_client_options.c:85
+msgid "- GNOME client for Ring"
+msgstr "- Πελάτης GNOME για το Ring"
+
+#: src/accountcreationwizard.cpp:231
+msgid ""
+"Your account was created, but we could not register your username. Try again"
+" from the settings menu."
+msgstr "Ο λογαριασμός σας έχει δημιουργηθεί, αλλά δεν μπορέσαμε να καταχωρήσετε το όνομα χρήστη σας. Δοκιμάστε ξανά από το μενού ρυθμίσεων."
+
+#: src/accountcreationwizard.cpp:275
+msgctxt "The default username / account alias, if none is set by the user"
+msgid "Unknown"
+msgstr "Άγνωστοι"
+
+#: src/accountcreationwizard.cpp:471
+msgid "Passwords don't match"
+msgstr "Τα συνθηματικά δεν ταιριάζουν"
+
+#: src/ringwelcomeview.cpp:88
+msgid ""
+"This is your Ring username.\n"
+"Copy and share it with your friends!"
+msgstr "Αυτό είναι το όνομα χρήστη που έχετε στο Ring.\nΑντιγράψτε και μοιραστείτε το με τους φίλους σας!"
+
+#: src/ringwelcomeview.cpp:96
+msgctxt "Do not translate \"RingID\""
+msgid ""
+"This is your RingID.\n"
+"Copy and share it with your friends!"
+msgstr "Αυτό είναι το RingID σου.\nΑντέγραψε το και μοιράσου το με τους φίλους σου!"
+
+#: src/ringwelcomeview.cpp:151
+msgid ""
+"Ring is free software for universal communication which respects the "
+"freedoms and privacy of its users."
+msgstr "Το Ring είναι ελεύθερο λογισμικό για παγκόσμια επικοινωνία που σέβεται τις ελευθερίες και την ιδιωτικότητα των χρηστών του."
+
+#: src/ringwelcomeview.cpp:205
+msgctxt "Do not translate \"Ring ID\""
+msgid "Ring ID QR code"
+msgstr "Κώδικας QR του Ring ID"
+
+#: src/currentcallview.cpp:781
+msgctxt "Enable automatic video quality"
+msgid "Auto"
+msgstr ""
+
+#: src/accountview.cpp:168
+msgctxt "Account settings"
+msgid "General"
+msgstr "Γενικά"
+
+#: src/accountview.cpp:176
+msgctxt "Account settings"
+msgid "Devices"
+msgstr "Συσκευές"
+
+#: src/accountview.cpp:182
+msgctxt "Account settings"
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: src/accountview.cpp:187
+msgctxt "Account settings"
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: src/accountview.cpp:194
+msgctxt "List of banned peers"
+msgid "Bans"
+msgstr ""
+
+#: src/accountview.cpp:250
+#, c-format
+msgid "Are you sure you want to delete account \"%s\"?"
+msgstr "Είσαι σίγουρος ότι θέλεις να διαγράψεις τον λογαριασμό  \"%s\";"
+
+#: src/accountview.cpp:377
+msgid "New Account"
+msgstr "Νέος λογαριασμός"
+
+#: src/accountview.cpp:527
+msgctxt "Account state column"
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: src/accountview.cpp:533
+msgctxt "Account alias (name) column"
+msgid "Alias"
+msgstr "Ψευδώνυμο"
+
+#: src/accountview.cpp:541
+msgctxt "Account status column"
+msgid "Status"
+msgstr "Κατάσταση"

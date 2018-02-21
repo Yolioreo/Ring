@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:saveEnabled="false"
+        tools:context=".client.HomeActivity">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/left_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppThemeBase"
+            android:windowBackground="@color/white"
+            app:itemTextColor="?android:textColorPrimary">
+
+            <FrameLayout
+                android:id="@+id/navigation_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/drawer_content_padding">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_primary_light"
+            android:elevation="@dimen/toolbar_elevation"
+            android:minHeight="?attr/actionBarSize"
+            android:popupTheme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:titleTextAppearance="@style/ToolbarTitle"
+            app:contentInsetStart="@dimen/toolbar_content_inset"
+            app:elevation="@dimen/toolbar_elevation"
+            app:titleTextAppearance="@style/ToolbarTitle" />
+
+        <LinearLayout
+            android:id="@+id/toolbar_spacer"
+            android:layout_width="match_parent"
+            android:layout_height="72sp"
+            android:layout_below="@+id/main_toolbar"
+            android:background="@color/color_primary_light"
+            android:elevation="@dimen/toolbar_elevation"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:paddingStart="@dimen/toolbar_content_inset"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/toolbar_spacer_title"
+                style="@style/ToolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_item_accounts"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toolbar_spacer"
+            android:orientation="vertical" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/toolbar_spacer"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/action_button_bpadding"
+            android:layout_marginStart="@dimen/action_button_lpadding"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:visibility="gone"
+            app:elevation="6dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="12dp"
+            app:rippleColor="@android:color/white" />
+
+    </RelativeLayout>
+</FrameLayout>

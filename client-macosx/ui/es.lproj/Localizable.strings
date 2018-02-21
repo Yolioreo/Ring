@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Ocurrió un error durante la exportación";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Añadir a contactos";
+
+/* Text shown to the user */
+"Alias : " = "Alias:";
+
+/* Error shown to the user */
+"An error occured during the export" = "Ocurrió un error durante la exportación";
+
+/* Contextual menu entry */
+"Backup account" = "Cuenta de respaldo";
+
+/* Contextual menu action */
+"Call number" = "Llamar";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Elegir una lista CA";
+
+/* Open panel title */
+"Choose a certificate" = "Elegir un certificado";
+
+/* Open panel title */
+"Choose a directory" = "Elija un directorio";
+
+/* Open panel title */
+"Choose a private key file" = "Elija un archivo de llave privada";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Elegir CA";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Elija directorio";
+
+/* Contextual menu entry */
+"Choose file" = "Elegir archivo";
+
+/* No comment provided by engineer. */
+"Copy" = "Copiar";
+
+/* Contextual menu action */
+"Copy name" = "Copiar nombre";
+
+/* Contextual menu action */
+"Copy number" = "Copiar número";
+
+/* Contextual menu entry */
+"Create RING Account" = "Crear una cuenta Ring";
+
+/* Contextual menu entry */
+"Create SIP Account" = "Crear cuenta SIP";
+
+/* File transfer failed label */
+"Failed" = "Falló";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Se produjo un error al migrar la cuenta. Presiona Aceptar para reintentarlo o elimina tu cuenta.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "No se pudo llevar a cabo la búsqueda";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "Llamada entrante de %@";
+
+/* Message from {Name} */
+"Message from %@" = "Mensaje de %@";
+
+/* User label */
+"New SIP account" = "Nueva cuenta SIP";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "La contraseña y la confirmación no coinciden";
+
+/* Indication for user */
+"Password is too short" = "La contraseña es demasiado corta";
+
+/* Indication for user */
+"Passwords don't match" = "Las contraseñas no coinciden";
+
+/* Button label */
+"Pause" = "Pausar";
+
+/* Button label */
+"Play" = "Reproducir";
+
+/* Button Action */
+"Refuse" = "No aceptar";
+
+/* Contextual menu entry */
+"Remove value" = "Remover dato";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Reabre la cuenta para ver el hash";
+
+/* Contextual menu entry */
+"Restore account" = "Restablecer cuenta";
+
+/* Button title */
+"Revise Input" = "Revisar entrada";
+
+/* Text shown to the user */
+"RingID : " = "RingID:";
+
+/* No comment provided by engineer. */
+"Share" = "Compartir";
+
+/* File transfer successful label */
+"Success" = "Hecho";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Acciones del Texto";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "El nombre de usuario tecleado está disponible";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "El identificador de usuario indicado es inválido. Debe contener al menos 3 caracteres alfanuméricos en minúscula.";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "El nombre de usuario tecleado no está disponible";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "La siguiente cuenta debe migrar al nuevo formato de cuenta Ring:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "La contraseña ingresada no puede desbloquear esta cuenta";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "Para completar el proceso, necesitas abrir Ring en el nuevo dispositivo y escoger la opción \"Conectar un dispositivo a esta cuenta\". El PIN es válido por 10 minutos.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "Para comenzar la migración debes escoger una contraseña para tu cuenta. Esta contraseña cifrará tu clave principal y será necesaria para añadir dispositivos a tu cuenta Ring. Si no estás listo para escoger una contraseña puedes cerrar el programa y retomarlo más adelante.";
+
+/* Name used when user leave field empty */
+"Unknown" = "Desconocido";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "Debes migrar tu cuenta antes de exportar";
+

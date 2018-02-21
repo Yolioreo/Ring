@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright (C) 2004-2016 Savoir-faire Linux Inc.
+
+Author: 	Alexandre Lision <alexandre.lision@savoirfairelinux.com>
+			Adrien Beraud <adrien.beraud@savoirfairelinux.com>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cx.ring"
+    android:installLocation="auto"
+    android:versionCode="106"
+    android:versionName="20180215">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:supportsRtl="true"
+        tools:ignore="UnusedAttribute">
+
+        <meta-data
+            android:name="firebase_analytics_collection_deactivated"
+            android:value="true" />
+        <meta-data
+            android:name="google_analytics_adid_collection_enabled"
+            android:value="false" />
+
+        <activity
+            android:name=".launch.LaunchActivity"
+            android:configChanges="screenSize|screenLayout|smallestScreenSize"
+
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".client.HomeActivity"
+            android:configChanges="screenSize|screenLayout|smallestScreenSize"
+            android:label="@string/title_activity_sflphone_home"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sip" />
+                <data android:scheme="tel" />
+                <data
+                    android:host="ring.cx"
+                    android:pathPrefix="/id/"
+                    android:scheme="https" />
+                <data
+                    android:host="ring.cx"
+                    android:pathPrefix="/id/"
+                    android:scheme="http" />
+                <data android:scheme="ring" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".account.AccountWizardActivity"
+            android:configChanges="screenSize|screenLayout|smallestScreenSize"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase" />
+        <activity
+            android:name=".account.AccountEditionActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase" />
+
+        <receiver android:name=".service.OutgoingCallHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".client.CallActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="fullUser"
+            android:showOnLockScreen="true"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="ring.cx"
+                    android:pathPrefix="/id/"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="ring.cx"
+                    android:pathPrefix="/id/"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="ring" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".client.ConversationActivity"
+            android:configChanges="screenSize|screenLayout|smallestScreenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".client.HomeActivity"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".client.QRCodeScannerActivity"
+            android:screenOrientation="fullUser"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service
+            android:name=".service.DRingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".service.DRingService" />
+            </intent-filter>
+        </service>
+
+        <!-- AndroidTV section  -->
+        <activity
+            android:name=".tv.launch.TVLaunchActivity"
+            android:banner="@drawable/banner"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_sflphone_home"
+            android:logo="@drawable/ic_launcher"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeBase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tv.main.HomeActivity"
+            android:label="@string/title_activity_sflphone_home"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Ring.Leanback.CustomTitle" />
+        <activity
+            android:name=".tv.account.TVAccountWizard"
+            android:configChanges="screenSize|screenLayout|smallestScreenSize"
+            android:screenOrientation="fullUser"
+            android:theme="@style/AppThemeBase" />
+
+        <activity
+            android:name="cx.ring.tv.search.SearchActivity"
+            android:theme="@style/Theme.Leanback" />
+
+        <activity
+            android:name="cx.ring.tv.about.AboutActivity"
+            android:theme="@style/Theme.Leanback" />
+
+        <activity
+            android:name="cx.ring.tv.account.TVProfileEditingActivity"
+            android:theme="@style/Theme.Leanback" />
+
+        <activity
+            android:name="cx.ring.tv.call.TVCallActivity"
+            android:showOnLockScreen="true"
+            android:theme="@style/AppThemeBase">
+            <intent-filter>
+                <action android:name="cx.ring.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cx.ring.tv.camera.CustomCameraActivity"
+            android:theme="@style/AppThemeBase">
+            <intent-filter>
+                <action android:name="cx.ring.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tv.contactrequest.TVContactRequestActivity"
+            android:theme="@style/Theme.Leanback.Details" />
+        <activity
+            android:name=".tv.account.TVSettingsActivity"
+            android:theme="@style/LeanbackPreferences" />
+
+    </application>
+
+</manifest>

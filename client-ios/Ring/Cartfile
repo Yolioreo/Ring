@@ -1,0 +1,10 @@
+github "RxSwiftCommunity/RxRealm" ~> 0.7
+github "RxSwiftCommunity/RxDataSources" ~> 3.0
+github "pkluz/PKHUD" ~> 5.0
+github "AliSoftware/Reusable" ~> 4.0
+github "SwiftyBeaver/SwiftyBeaver" ~> 1.0
+github "ViccAlexander/Chameleon"
+github "andreamazz/AMPopTip"
+github "ashleymills/Reachability.swift"
+github "stephencelis/SQLite.swift" ~> 0.11.4
+github "optonaut/ActiveLabel.swift"

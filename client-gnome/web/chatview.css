@@ -1,0 +1,563 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#invitation {
+  visibility: hidden;
+  width: 100%;
+  background: #bae5f0;
+  z-index: 2;
+  position: absolute;
+  margin: 0 auto;
+  left:0;
+  right:0;
+  top:0;
+}
+
+#actions
+{
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flat-button {
+  margin: 5px;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  vertical-align: middle;
+
+}
+
+.button-green {
+  background: #27ae60;
+}
+
+.button-green:hover {
+  background: #219d55;
+}
+
+.button-red {
+  background: #dc3a37;
+}
+
+.button-red:hover {
+  background: #dc2719;
+}
+
+#invitation #text h1 {
+  font-size: 1.5em;
+}
+
+#invitation #text {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+a:link {
+  text-decoration: none;
+  color: #0e649b;
+  transition: all 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+}
+
+a:hover {
+  border: 0;
+}
+
+.message_out #cardWrapper {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+.message_out #cardWrapper a {
+  border: 0;
+}
+
+.message_out #containerVideo {
+  float: right;
+}
+
+#playVideo {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  float: right;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  z-index: 3;
+}
+
+#containerVideo {
+  max-width: 350px;
+  position: relative;
+}
+
+#playVideo svg {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+#messages {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  overflow-y: scroll;
+  height: auto;
+  max-height: calc(100% - 50px);
+}
+
+#sendMessage {
+  display: flex;
+  position: relative;
+  border-top : 2px solid #d3d3d3;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 8px;
+  overflow: hidden;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+
+}
+
+#message {
+  flex: 1;
+  margin-right: 10px;
+  border: 0;
+  overflow-y: scroll;
+  color: black;
+  max-height: 150px;
+  padding-left: 8px;
+  resize: none;
+}
+
+#message:focus,
+#message.focus {
+  outline: none;
+}
+
+#container[disabled] {
+  background-color: #ccc;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #d3d3d3;
+}
+
+#sendBtn {
+  border-radius: 50%;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  transition: all 0.3s ease;
+}
+
+#sendBtn.hover,
+#sendBtn:hover {
+  background: #bae5f0;
+}
+
+#sendBtn.hover svg,
+#sendBtn:hover svg {
+  fill: black;
+}
+
+#sendMessage svg {
+  fill: #666;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+
+.wc {
+  will-change: transform;
+}
+
+.status_circle {
+  fill: #A0A0A0;
+  -webkit-animation: circle-dance;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.anim-first {
+  -webkit-animation-delay: 0.7s;
+}
+
+.anim-second {
+  -webkit-animation-delay: 0.9s;
+}
+
+.anim-third {
+  -webkit-animation-delay: 1.1s;
+}
+
+@-webkit-keyframes circle-dance {
+  0%,50% {
+    -webkit-transform: translateY(0);
+    fill: #A0A0A0;
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    fill: #000;
+  }
+}
+
+.status-check {
+    stroke-dasharray: 17;
+    stroke-dashoffset: 17;
+    -webkit-animation: dash-check;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: 0.7s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+    display: none;
+}
+
+.message--sent .status-check {
+        display: inline-block;
+}
+
+@-webkit-keyframes dash-check{
+  from {
+    stroke-dashoffset: 17;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.status-x {
+  stroke-dasharray: 12;
+  stroke-dashoffset: 12;
+  -webkit-animation: dash-x;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.x-first {
+  -webkit-animation-delay: 0.7s;
+}
+
+.x-second {
+  -webkit-animation-delay: 0.9s;
+}
+
+@-webkit-keyframes dash-x{
+  from {
+    stroke-dashoffset: 12;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.message_wrapper {
+    transform: scale(0);
+    max-width: 70%;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    -webkit-animation: talk;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.message {
+    font: 0.875em "Open sans",Helvetica,"Segoe UI",sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    overflow: hidden;
+}
+
+#msg_content img {
+  max-width: 300px;
+  align-content: center;
+}
+
+#msg_content img:first-of-type {
+  margin: 5px;
+}
+
+pre {
+  font : inherit;
+  font-family : inherit;
+  font-size : inherit;
+  font-style : inherit;
+  font-variant : inherit;
+  font-weight : inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.message_out {
+    flex-direction: row-reverse;
+}
+
+.timestamp
+{
+  display: flex;
+  justify-content: flex-start;
+  color: #333;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.timestamp_out {
+  flex-direction: row-reverse;
+}
+
+.message_sender {
+    display: none;
+}
+
+.sender_image {
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+    margin: 10px;
+}
+
+.message_in .sender_image {
+    -webkit-animation-name: enter-stage-left;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.message_out .sender_image {
+    -webkit-animation-name: enter-stage-right;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes enter-stage-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes enter-stage-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+.message_out > .message_wrapper {
+    background-color: #cfebf5;
+    border-top-right-radius: 0;
+    transform-origin: top right;
+}
+
+.message_out + .message_out > .message_wrapper {
+    border-top-right-radius: 10px;
+}
+
+.message_in > .message_wrapper {
+    background-color: #DEDEE0;
+    border-top-left-radius: 0;
+    transform-origin: top left;
+}
+
+.message_in + .message_in > .message_wrapper {
+    border-top-left-radius: 10px;
+}
+
+.message_timestamp {
+  color: #333;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  transition: opacity 0.3s ease-in-out;
+  line-height: 1em;
+  display: inline-block;
+  opacity: 0;
+  float: right;
+}
+
+.message_wrapper:hover .message_timestamp {
+  opacity: 1;
+}
+
+.sent-checkmark {
+  margin-left: 0.313em;
+  float: right;
+}
+
+@-webkit-keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.message_text {
+    word-wrap: break-word;
+    display: block;
+}
+
+@-webkit-keyframes talk {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+}
+
+.message_in > .message_wrapper:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E %3Cpath d= 'M10,0 L0,0 C10,0 10,10 10,10' fill='%23DEDEE0'/%3E %3C/svg%3E");
+    transform-origin: top left;
+}
+
+.message_in + .message_in > .message_wrapper:before {
+    display: none;
+}
+
+.message_out + .message_out > .message_wrapper:after {
+    display: none;
+}
+
+.message_out > .message_wrapper:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E %3Cpath d= 'M0,0 L10,0 C0,0 0,10 0,10' fill='%23cfebf5'/%3E %3C/svg%3E");
+    transform-origin: top right;
+}
+
+.message_delivery_status {
+    margin: 10px 10px;
+    color: #A0A0A0;
+    opacity: 0;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0.4s;
+    -webkit-animation-fill-mode: forwards;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.message_in + .message_in .sender_image {
+    opacity: 0;
+}
+
+.message_out + .message_out .sender_image {
+    opacity: 0;
+}
+
+.message_type_contact,
+.message_type_call {
+  width: 100%;
+}
+
+.message_type_call .sent-checkmark,
+.message_type_call .message_sender,
+.message_type_call .message_delivery_status,
+.message_type_call .message_timestamp,
+.message_type_call .message_sender_image,
+.message_type_contact .sent-checkmark,
+.message_type_contact .message_sender,
+.message_type_contact .message_delivery_status,
+.message_type_contact .message_timestamp,
+.message_type_contact .message_sender_image {
+  visibility: hidden;
+  display: none;
+}
+
+.message_type_contact .message_wrapper:before,
+.message_type_call .message_wrapper:before {
+    display: none;
+}
+
+.message_type_call .message_wrapper:after,
+.message_type_contact .message_wrapper:after {
+    display: none;
+}
+
+.message_type_call .message_wrapper,
+.message_type_contact .message_wrapper {
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #888;
+  font-style: italic;
+  border-radius: 0;
+}
+
+.message_type_call .message_text,
+.message_type_contact .message_text {
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 20px;
+}
+
+.message_type_call .message_text {
+    border-bottom: 1px dotted #ccc;
+}
+
+#green {
+  color: green;
+}
+
+#red {
+  color: red;
+  font-size: 1.25em;
+}

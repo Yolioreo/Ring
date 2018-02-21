@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Dışa aktarma esnasında bir ağ hatası oluştu";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Kişilere ekle";
+
+/* Text shown to the user */
+"Alias : " = "Takma Ad :";
+
+/* Error shown to the user */
+"An error occured during the export" = "Dışa aktarma esnasında bir hata oluştu";
+
+/* Contextual menu entry */
+"Backup account" = "Hesabı yedekle";
+
+/* Contextual menu action */
+"Call number" = "Telefon numarası";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Bir onay kurumu listesi seç";
+
+/* Open panel title */
+"Choose a certificate" = "Bir sertifika seç";
+
+/* Open panel title */
+"Choose a directory" = "Bir dizin seç";
+
+/* Open panel title */
+"Choose a private key file" = "Bir özel anahtar dosyası seç";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Onay kurumu seç";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Dizin seç";
+
+/* Contextual menu entry */
+"Choose file" = "Dosya seç";
+
+/* No comment provided by engineer. */
+"Copy" = "Kopyala";
+
+/* Contextual menu action */
+"Copy name" = "Adı kopyala";
+
+/* Contextual menu action */
+"Copy number" = "Numarayı kopyala";
+
+/* Contextual menu entry */
+"Create RING Account" = "Ring Hesabı Oluştur";
+
+/* Contextual menu entry */
+"Create SIP Account" = "SİP Hesabı Oluştur";
+
+/* File transfer failed label */
+"Failed" = "Başarısız";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Hesabınız taşınırken hata oluştu. Tekrar tamamı tıklayabilir veya hesabınızı silebilirsiniz.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "Bakma başarısız";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "%@'den gelen arama";
+
+/* Message from {Name} */
+"Message from %@" = "%@'den ileti";
+
+/* User label */
+"New SIP account" = "Yeni SIP hesabı";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "Parola ve doğrulama uyuşmuyor";
+
+/* Indication for user */
+"Password is too short" = "Parola çok kısa";
+
+/* Indication for user */
+"Passwords don't match" = "Parolalar uyuşmuyor";
+
+/* Button label */
+"Pause" = "Duraklat";
+
+/* Button label */
+"Play" = "Oynat";
+
+/* Button Action */
+"Refuse" = "Geri Çevir";
+
+/* Contextual menu entry */
+"Remove value" = "Değeri kaldır";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Karıştırdığınız yerlere bakıp hesabı yeniden açın";
+
+/* Contextual menu entry */
+"Restore account" = "Hesabı geri yükle";
+
+/* Button title */
+"Revise Input" = "Girdiyi Gözden Geçirin";
+
+/* Text shown to the user */
+"RingID : " = "Ring Kimliği :";
+
+/* No comment provided by engineer. */
+"Share" = "Paylaş";
+
+/* File transfer successful label */
+"Success" = "Başarılı";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Metin Eylemleri";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "Girilen kullanıcı adı uygun";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "Girilen kullanıcı adı geçersiz. En az 3 karakterli olmalı ve yalnızca abece sayısal karakterler içermelidir.";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "Girilen kullanıcı adı uygun değil";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "Aşağıdaki hesabın yeni Ring hesabı biçimine göç ettirilmesi gerekir:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "Girdiğiniz parola bu hesabı açmaz";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "Süreci bitirmek için, yeni aygıtta Ring'i açmanız ve \"Bu aygıtı bir hesaba bağla\" seçeneğini seçmeniz gerekiyor. Pin'iniz 10 dakika için geçerlidir.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "Göçü sürdürmek için, hesabınız için bir parola seçmelisiniz. Bu parola ana anahtarınızı şifrelemek için kullanılacak. Bu, yeni aygıtları Ring hesabınıza eklerken gerekecek. Eğer parola seçmek için hazır değilseniz, Ring'i kapatabilir ve göçü daha sonra sürdürebilirsiniz.";
+
+/* Name used when user leave field empty */
+"Unknown" = "Bilinmeyen";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "Hesabı dışa aktarmadan önce taşımanız gerekir.";
+

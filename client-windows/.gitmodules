@@ -1,0 +1,6 @@
+[submodule "winsparkle"]
+	path = winsparkle
+	url = git://github.com/vslavik/winsparkle.git
+[submodule "libqrencode"]
+	path = libqrencode
+	url = https://github.com/fukuchi/libqrencode.git

@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Во время экспорта произошла ошибка сети";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Добавить в контакты";
+
+/* Text shown to the user */
+"Alias : " = "Псевдоним:";
+
+/* Error shown to the user */
+"An error occured during the export" = "Во время экспорта произошла ошибка";
+
+/* Contextual menu entry */
+"Backup account" = "Создать резервную копию аккаунта";
+
+/* Contextual menu action */
+"Call number" = "Позвонить по номеру";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Выбрать список CA";
+
+/* Open panel title */
+"Choose a certificate" = "Выбрать сертификат";
+
+/* Open panel title */
+"Choose a directory" = "Выбрать директорию";
+
+/* Open panel title */
+"Choose a private key file" = "Выбрать файл закрытого ключа";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Выбрать CA";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Выбрать директорию";
+
+/* Contextual menu entry */
+"Choose file" = "Выбрать файл";
+
+/* No comment provided by engineer. */
+"Copy" = "Копировать";
+
+/* Contextual menu action */
+"Copy name" = "Копировать имя";
+
+/* Contextual menu action */
+"Copy number" = "Копировать номер";
+
+/* Contextual menu entry */
+"Create RING Account" = "Создать Аккаунт Ring";
+
+/* Contextual menu entry */
+"Create SIP Account" = "Создать SIP Аккаунт";
+
+/* File transfer failed label */
+"Failed" = "Сбой";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Не удалось перенести ваш аккаунт. Вы можете либо попробовать снова, нажав Оk, либо удалить ваш аккаунт.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "Не удалось осуществить поиск";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "Входящий вызов от %@";
+
+/* Message from {Name} */
+"Message from %@" = "Сообщение от %@";
+
+/* User label */
+"New SIP account" = "Новый SIP аккаунт";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "Пароль и подтверждение не совпадают.";
+
+/* Indication for user */
+"Password is too short" = "Пароль слишком короткий";
+
+/* Indication for user */
+"Passwords don't match" = "Пароли не совпадают";
+
+/* Button label */
+"Pause" = "Пауза";
+
+/* Button label */
+"Play" = "Проигрывать";
+
+/* Button Action */
+"Refuse" = "Отклонить";
+
+/* Contextual menu entry */
+"Remove value" = "Удалить значение";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Откройте аккаунт повторно для просмотра вашего хеша";
+
+/* Contextual menu entry */
+"Restore account" = "Восстановить аккаунт";
+
+/* Button title */
+"Revise Input" = "Проверить Ввод";
+
+/* Text shown to the user */
+"RingID : " = "RingID: ";
+
+/* No comment provided by engineer. */
+"Share" = "Поделиться";
+
+/* File transfer successful label */
+"Success" = "Успешно";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Действия с Текстом";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "Указанное имя пользователя доступно";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "Введенное имя пользователя недопустимо. Оно должно содержать не менее 3 символов и состоять из букв и цифр в нижнем регистре.";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "Указанное имя пользователя недоступно";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "Следующий аккаунт требуется преобразовать в новый формат аккаунта Ring:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "Введенный пароль не подходит к этому аккаунту";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "Для завершения процесса вам нужно открыть Ring на новом устройстве и выбрать \"Привязать это устройство к аккаунту\". Ваш PIN действителен в течение 10 минут.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "Чтобы продолжить перенос, вам нужно выбрать пароль для вашего аккаунта. Этот пароль будет использован для шифрования вашего основного ключа. Он потребуется для добавления новых устройств к вашему аккаунту Ring. Если вы не готовы выбрать пароль, можете закрыть Ring и продолжить перенос позднее.";
+
+/* Name used when user leave field empty */
+"Unknown" = "Неизвестно";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "Вам нужно перенести аккаунт перед экспортом";
+

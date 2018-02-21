@@ -1,0 +1,150 @@
+
+"A network error occured during the export" = "Ett nätverksfel inträffade under exporten";
+
+/* No password on this account text field placeholder */
+"Account has no password" = "Account has no password";
+
+/* Contextual menu action */
+"Add to contacts" = "Lägg till i kontakter";
+
+/* Text shown to the user */
+"Alias : " = "Alias: ";
+
+/* Error shown to the user */
+"An error occured during the export" = "Ett fel inträffade vid exporten";
+
+/* Contextual menu entry */
+"Backup account" = "Säkerhetskopiera konto";
+
+/* Contextual menu action */
+"Call number" = "Ring upp nummer";
+
+/* File transfer canceled label */
+"Canceled" = "Canceled";
+
+/* Open panel title */
+"Choose a CA list" = "Välj en CA-lista";
+
+/* Open panel title */
+"Choose a certificate" = "Välj ett certifikat";
+
+/* Open panel title */
+"Choose a directory" = "Välj en mapp";
+
+/* Open panel title */
+"Choose a private key file" = "Välj en privat nyckelfil";
+
+/* Open panel prompt for 'Choose a file' */
+"Choose CA" = "Välj CA";
+
+/* Open panel prompt for 'Choose a directory' */
+"Choose directory" = "Välj mapp";
+
+/* Contextual menu entry */
+"Choose file" = "Välj fil";
+
+/* No comment provided by engineer. */
+"Copy" = "Kopiera";
+
+/* Contextual menu action */
+"Copy name" = "Kopiera namn";
+
+/* Contextual menu action */
+"Copy number" = "Kopiera nummer";
+
+/* Contextual menu entry */
+"Create RING Account" = "Skapa Ring-konto";
+
+/* Contextual menu entry */
+"Create SIP Account" = "Skapa SIP-konto";
+
+/* File transfer failed label */
+"Failed" = "Misslyckades";
+
+/* Error message shown to user when it is impossible to migrate account */
+"Failed to migrate your account. You can retry by pressing Ok or delete your account." = "Kunde inte migrera ditt konto. Du kan försöka igen genom att trycka OK, eller radera ditt konto.";
+
+/* Text shown to user when an error occur at registration */
+"Failed to perform lookup" = "Kunde inte utföra uppslagning";
+
+/* Incoming call from {Name} */
+"Incoming call from %@" = "Inkommande samtal från %@";
+
+/* Message from {Name} */
+"Message from %@" = "Meddelande från %@";
+
+/* User label */
+"New SIP account" = "Nytt SIP-konto";
+
+/* Displayed as RingID when no accounts are available for selection */
+"No account available" = "No account available";
+
+/* Text show to the user when password didn't match */
+"Password and confirmation mismatch." = "Lösenord och bekräftelse stämmer inte.";
+
+/* Indication for user */
+"Password is too short" = "Lösenordet är för kort";
+
+/* Indication for user */
+"Passwords don't match" = "Lösenorden stämmer inte";
+
+/* Button label */
+"Pause" = "Paus";
+
+/* Button label */
+"Play" = "Spela";
+
+/* Button Action */
+"Refuse" = "Neka";
+
+/* Contextual menu entry */
+"Remove value" = "Ta bort värde";
+
+/* Show advice to user */
+"Reopen account to see your hash" = "Återöppna kontot för att se ditt hashvärde";
+
+/* Contextual menu entry */
+"Restore account" = "Återställ konto";
+
+/* Button title */
+"Revise Input" = "Revidera indata";
+
+/* Text shown to the user */
+"RingID : " = "Ring-ID : ";
+
+/* No comment provided by engineer. */
+"Share" = "Dela";
+
+/* File transfer successful label */
+"Success" = "Slutfört";
+
+/* No comment provided by engineer. */
+"Text Actions" = "Textåtgärder";
+
+/* Text shown to user when his username is available to be registered */
+"The entered username is available" = "Angivet användarnamn är tillgängligt";
+
+/* Text shown to user when his username is invalid to be registered */
+"The entered username is invalid. It must have at least 3 characters and contain only lowercase alphanumeric characters." = "Användarnamnet är ogiltigt. Det måste ha minst 3 tecken och får endast innehålla små bokstäver.";
+
+/* Text shown to user when his username is already registered */
+"The entered username is not available" = "Lösenordet är inte tillgängligt";
+
+/* Text shown to the user */
+"The following account needs to be migrated to the new Ring account format:" = "Följande konto behöver migreras till det nya Ring-kontoformatet:";
+
+/* Error shown to the user */
+"The password you entered does not unlock this account" = "Det angivna lösenordet låser inte upp detta konto";
+
+/* Title shown to user to concat with Pin */
+"To complete the processs, you need to open Ring on the new device and choose the option \"Link this device to an account\". Your pin is valid for 10 minutes." = "För att slutföra åtgärden, måste du nu öppna Ring på den nya enheten och välja alternativet \"Koppla den här enheten till ett konto\". PIN-koden är giltig i 10 minuter.";
+
+/* Text shown to the user */
+"To proceed with the migration, you must choose a password for your account. This password will be used to encrypt your master key. It will be required for adding new devices to your Ring account. If you are not ready to choose a password, you may close Ring and resume the migration later." = "För att gå vidare med migreringen, måste du välja ett lösenord för ditt konto. Detta lösenord kommer att användas för att kryptera din huvudnyckel. Huvudnyckeln krävs för att lägga till nya enheter till ditt Ring-konto. Om du inte är redo att välja ett lösenord, kan du stänga ner Ring och återuppta migreringen senare.";
+
+/* Name used when user leave field empty */
+"Unknown" = "Okänd";
+
+/* Error shown to user */
+"You have to migrate your account before exporting" = "Du måste migrera ditt konto före exporten";
+

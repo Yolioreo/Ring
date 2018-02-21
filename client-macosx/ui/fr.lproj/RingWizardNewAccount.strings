@@ -1,0 +1,42 @@
+
+/* Class = "NSTextFieldCell"; title = "By checking this, you will register a unique username on Ring network. People can use it to contact you instead of using your RingID which is 40 characters long."; ObjectID = "0qE-Sz-hdc"; */
+"0qE-Sz-hdc.title" = "En cochant cette case, vous enregistrez un nom d'utilisateur unique sur le réseau Ring. Les personnes peuvent l'utiliser pour vous contacter au lieu d'utiliser votre RingID de 40 caractères.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Mandatory*"; ObjectID = "1TO-Ov-S8j"; */
+"1TO-Ov-S8j.placeholderString" = "Obligatoire*";
+
+/* Class = "NSButtonCell"; title = "Register public username (experimental)"; ObjectID = "AG5-GR-bii"; */
+"AG5-GR-bii.title" = "Enregistrer un nom d'utilisateur public (expérimental)";
+
+/* Class = "NSTextFieldCell"; title = "Choose your password"; ObjectID = "B6x-jj-48R"; */
+"B6x-jj-48R.title" = "Choisir un mot de passe";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Mandatory*"; ObjectID = "BCg-5V-Ek4"; */
+"BCg-5V-Ek4.placeholderString" = "Obligatoire*";
+
+/* Class = "NSTextFieldCell"; title = "Just a moment..."; ObjectID = "YIN-YL-JBs"; */
+"YIN-YL-JBs.title" = "Veuillez patienter...";
+
+/* Class = "NSTextFieldCell"; title = "Repeat your password"; ObjectID = "fEY-eO-HwI"; */
+"fEY-eO-HwI.title" = "Confirmez le mot de passe";
+
+/* Class = "NSTextFieldCell"; placeholderString = "'Unknown' if empty..."; ObjectID = "gEy-ak-Cgq"; */
+"gEy-ak-Cgq.placeholderString" = "'Inconnu' si non renseigné...";
+
+/* Class = "NSTextFieldCell"; title = "Create your profile"; ObjectID = "gki-BR-jc3"; */
+"gki-BR-jc3.title" = "Créez votre profil";
+
+/* Class = "NSTextFieldCell"; title = "Create your account"; ObjectID = "qQl-Xn-c88"; */
+"qQl-Xn-c88.title" = "Créez votre compte";
+
+/* Class = "NSTextFieldCell"; title = "Enter your full name"; ObjectID = "tzf-88-Yn5"; */
+"tzf-88-Yn5.title" = "Entrez votre nom complet";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "v7f-52-GJA"; */
+"v7f-52-GJA.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; title = "Your password must be at least 6 characters. It will be used to encrypt your account data and to link new devices to your account."; ObjectID = "zUH-kc-cik"; */
+"zUH-kc-cik.title" = "Votre mot de passe doit contenir au moins 6 caractères. Il sera utilisé pour chiffrer les données de votre compte et pour lier de nouveaux appareils à ce compte";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "zfA-n9-V4X"; */
+"zfA-n9-V4X.title" = "Créer";

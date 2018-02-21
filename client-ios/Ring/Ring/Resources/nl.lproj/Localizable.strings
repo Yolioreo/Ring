@@ -1,0 +1,115 @@
+﻿/*
+ *  Copyright (C) 2017 Savoir-faire Linux Inc.
+ *
+ *  Author: Silbino Gonçalves Matado <silbino.gmatado@savoirfairelinux.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+ */
+
+// Global
+"global.homeTabBarTitle" = "Thuis";
+"global.contactRequestsTabBarTitle" = "Uitnodigingen";
+"global.meTabBarTitle" = "Account";
+"global.ok" = "Oké";
+
+// Smartlist
+"smartlist.yesterday" = "Gisteren";
+"smartlist.userFound" = "Gebruiker gevonden";
+"smartlist.conversations" = "Gesprekken";
+"smartlist.searching" = "Zoeken…";
+"smartlist.noResults" = "Geen resultaten";
+"smartlist.noNetworkConnectivity" = "Geen netwerkverbinding";
+"smartlist.cellularAccess" = "Zorg dat je toegang tot het mobiele netwerk toegestaan hebt in je instellingen";
+
+// Walkthrough
+
+//Welcome Screen
+"welcome.title" = "Welkom bij Ring";
+"welcome.text" = "Ring is een vrij en universeel communicatieplatform, dat de privacy en vrijheden van haar gebruikers eerbiedigt";
+"welcome.linkDevice" = "Dit apparaat aan een account koppelen";
+"welcome.createAccount" = "Een Ring-account aanmaken";
+
+//Creation Profile Screen
+"createProfile.createAccount" = "Overslaan om een account aan te maken";
+"createProfile.createAccountWithProfile" = "Volgende";
+"createProfile.linkDevice" = "Overslaan om een apparaat te koppelen";
+
+//Create Account form
+"createAccount.createAccountFormTitle" = "Je Ring-account aanmaken";
+"createAccount.chooseStrongPassword" = "Kies een sterk wachtwoord om je Ring-account te beschermen.";
+"createAccount.enterNewUsernamePlaceholder" = "gebruikersnaam";
+"createAccount.newPasswordPlaceholder" = "wachtwoord";
+"createAccount.repeatPasswordPlaceholder" = "wachtwoord bevestigen";
+"createAccount.passwordCharactersNumberError" = "Minimaal 6 tekens";
+"createAccount.passwordNotMatchingError" = "wachtwoorden komen niet overeen";
+"createAccount.lookingForUsernameAvailability" = "beschikbaarheid van gebruikersnaam wordt gecontroleerd";
+"createAccount.invalidUsername" = "ongeldige gebruikersnaam";
+"createAccount.usernameAlreadyTaken" = "gebruikersnaam reeds in gebruik";
+"createAccount.loading" = "Laden";
+"createAccount.waitCreateAccountTitle" = "Account wordt toegevoegd";
+
+//Link To Account form
+"linkToAccount.waitLinkToAccountTitle" = "Account koppelen";
+"linkToAccount.linkButtonTitle" = "Apparaat koppelen";
+"linkToAccount.passwordPlaceholder" = "wachtwoord";
+"linkToAccount.pinPlaceholder" = "Pincode";
+"linkToAccount.passwordLabel" = "Voer wachtwoord in";
+"linkToAccount.pinLabel" = "Voer pincode in";
+"linkToAccount.explanationPinMessage" = "Ga naar de accountbeheerinstellingen op het apparaat dat de account bevat die je wil gebruiken om de pincode te genereren. Selecteer \"Een ander apparaat aan deze account koppelen\". Je zal de pincode krijgen die je nodig hebt om dit proces te voltooien. De pincode is slechts 10 minuten geldig.";
+
+//Alerts
+"alerts.accountCannotBeFoundTitle" = "Account kan niet gevonden worden";
+"alerts.accountCannotBeFoundMessage" = "Account kon niet gevonden worden op het Ring-netwerk. Controleer of de account geëxporteerd is van een bestaand apparaat en dat de ingevoerde gebruikersreferenties correct zijn";
+"alerts.accountAddedTitle" = "Account toegevoegd";
+"alerts.accountNoNetworkTitle" = "Kan geen verbinding maken met het netwerk";
+"alerts.accountNoNetworkMessage" = "Kon de account niet toevoegen omdat Ring geen verbinding kon maken met het gedistribueerde netwerk. Controleer de netwerkverbinding van je apparaat.";
+"alerts.accountDefaultErrorTitle" = "Onbekende fout";
+"alerts.accountDefaultErrorMessage" = "De account kon niet aangemaakt worden.";
+"alerts.profileTakePhoto" = "Foto nemen";
+"alerts.profileUploadPhoto" = "Foto uploaden";
+"alerts.profileCancelPhoto" = "Annuleren";
+"alerts.accountLinkedTitle" = "Account koppelen";
+"alerts.dbFailedTitle" = "Er trad een fout op bij het opstarten van Ring";
+"alerts.dbFailedMessage" = "Sluit de app en probeer het opnieuw";
+"alerts.confirmBlockContact" = "Weet je zeker dat je dit contact wil blokkeren? De gespreksgeschiedenis met dit contact zal ook voorgoed verwijderd worden.";
+"alerts.confirmBlockContactTitle" = "Contact blokkeren";
+"alerts.confirmDeleteConversation" = "Weet je zeker dat je dit gesprek voorgoed wil verwijderen?";
+"alerts.confirmDeleteConversationTitle" = "Gesprek verwijderen";
+
+//Actions
+"actions.blockAction" = "Blokkeren";
+"actions.deleteAction" = "Verwijderen";
+"actions.cancelAction" = "Annuleren";
+"alerts.incomingCallAllertTitle" = "Inkomende oproep van";
+"alerts.incomingCallButtonAccept" = "Aanvaarden";
+"alerts.incomingCallButtonIgnore" = "Negeren";
+
+//Calls
+"calls.callItemTitle" = "Oproep";
+"calls.unknown" = "Onbekend";
+"calls.incomingCallInfo" = "wil met je praten";
+"calls.calling" = "Bellen…";
+"calls.callFinished" = "Oproep beëindigd";
+
+//Account Page
+"accountPage.devicesListHeader" = "Apparaten";
+
+//Link New Device
+"linkDevice.title" = "Een nieuw apparaat koppelen";
+"linkDevice.passwordError" = "Het wachtwoord dat je hebt ingevoerd ontgrendelt deze account niet";
+"linkDevice.networkError" = "Er is een netwerkfout opgetreden tijdens het exporteren";
+"linkDevice.defaultError" = "Er is een fout opgetreden tijdens het exporteren";
+"linkDevice.explanationMessage" = "Om het proces te voltooien open je Ring op het nieuwe apparaat en kies je de optie \"Dit apparaat aan een account koppelen\". Je pincode is 10 minuten geldig";
+"linkDevice.hudMessage" = "Verifiëren";
